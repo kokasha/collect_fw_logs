@@ -2,12 +2,28 @@
   hosts: fw01
   vars:
     # ansible_connection: network_cli
+    commands:
+      - id: diag sys ha checksum show
+        cmd: | 
+            config global 
+            diag sys ha checksum show
+
+      - id: get sys ha status
+        cmd: | 
+            config global 
+            get sys ha status
+
+      - id: get sys performance status
+        cmd: | 
+            config global 
+            get sys performance status
+
   tasks:
     - name: Create logs folder
-      file: paath=logs  state=directory
+      file: path=logs  state=directory
     - name: Issue Basic Check
       raw:  "{{ commands }}"
-      register: basic_check
+      register: basic_checks
       vars:
         commands: |
                   config global 
