@@ -1,13 +1,16 @@
-[fortinet]
-fw01    ansible_host=192.168.0.222
+[fws]
+fw_3800D_01     ansible_host=10.127.80.192
+fw_3800D_02     ansible_host=10.127.80.192
+fw_1200D_01     ansible_host=10.250.164.101
+fw_1200D_02     ansible_host=10.250.164.102
 
 [all:vars]
-ansible_user=ansible
-ansible_password=ansible123
+ansible_user=admin
+ansible_password=Fortinet
 #ansible_connection=network_cli
 #ansible_connection=httpapi
 ansible_network_os=voss
-ansible_python_interpreter=/Users/kokasha/OneDrive/Redhat_Work/projects/Optus/net_automation/mobile_core/lab_setup/.ansible29/bin/python
+#ansible_python_interpreter=/Users/kokasha/OneDrive/Redhat_Work/projects/Optus/net_automation/mobile_core/lab_setup/.ansible29/bin/python
 
 
 
