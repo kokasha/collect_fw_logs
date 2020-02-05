@@ -1,5 +1,5 @@
 - name: Retrieve Output from Devices
-  hosts: fws
+  hosts: fw01
   vars:
     # ansible_connection: network_cli
     commands:
@@ -18,56 +18,107 @@
             config global 
             get sys performance status
 
+      - id: diag sys session full-stat
+        cmd: | 
+            config vdom
+            edit DMZ 
+            diag sys session full-stat
+
+      - id: diagnose netlink aggregate name LAG-01
+        cmd: | 
+            config vdom
+            edit DMZ 
+            diagnose netlink aggregate name LAG-01
+
+      - id: get system interface | grep vlan
+        cmd: | 
+            config vdom
+            edit DMZ 
+            get system interface | grep vlan 
+
+      - id: diag vpn ike status
+        cmd: | 
+            config vdom
+            edit DMZ 
+            diag vpn ike status
+
+      - id: get vpn ike gateway
+        cmd: | 
+            config vdom
+            edit DMZ 
+            get vpn ike gateway
+
+      - id: get vpn ipsec tunnel summary
+        cmd: | 
+            config vdom
+            edit DMZ 
+            get vpn ipsec tunnel summary
+
+      - id: diag vpn tunnel stat
+        cmd: | 
+            config vdom
+            edit DMZ 
+            diag vpn tunnel stat
+
+      - id: diagnose debug crashlog read
+        cmd: | 
+            config global
+            diagnose debug crashlog read
+
+      - id: diagnose debug config-error-log read
+        cmd: | 
+            config global 
+            diagnose debug config-error-log read
+
   tasks:
     - name: Create logs folder
-      file: path=logs  state=directory
+      file: path=logs/{{ inventory_hostname }}  state=directory
       delegate_to: localhost
-      
+
     - name: Issue Basic Check
-      raw:  "{{ commands }}"
+      raw:  "{{ item.cmd }}"
+      loop: "{{ commands }}"
       register: basic_checks
-      vars:
-        commands: |
-                  config global 
-                  diag sys ha checksum show
-                  get sys ha status
-                  get sys performance status
-    - copy:
-        content: "{{ basic_checks.stdout }}"
-        dest: "logs/{{ inventory_hostname }}_basic.txt"
-      delegate_to: localhost
-
-    - name: Issue DMZ VDOM Checks
-      raw: "{{ commands }}"
-      register: dmz_checks
-      vars:
-        commands: |
-                  config vdom
-                  edit DMZ
-                  diag sys session full-stat
-                  diagnose netlink aggregate name LAG-01     
-                  get system interface | grep vlan   
-                  get router info routing-table all 
-                  dia vpn ike status
-                  get vpn ike gateway
-                  get vpn ipsec tunnel summary
-                  dia vpn tunnel stat 
 
     - copy:
-        content: "{{ dmz_checks.stdout }}"
-        dest: "logs/{{ inventory_hostname }}_dmz_vdom.txt"
+        content: "{{ item.0}}"
+        dest: "logs/{{ inventory_hostname }}/{{ item.1.id | regex_replace('[ |]'','_') }}.txt"
+      with_together:
+        - "{{ basic_checks.results }}"
+        - "{{ commands }}"
       delegate_to: localhost
 
-    - name: Issue dump logs
-      raw: "{{ commands }}"
-      register: dump_logs
-      vars:
-        commands: |
-                  config global
-                  diagnose debug crashlog read
-                  diagnose debug config-error-log read
-                  exec date 
-    - copy:
-        content: "{{ dump_logs.stdout }}"
-        dest: "logs/{{ inventory_hostname }}_dump_logs.txt"
-      delegate_to: localhost
+    # - name: Issue DMZ VDOM Checks
+    #   raw: "{{ commands }}"
+    #   register: dmz_checks
+    #   vars:
+    #     commands: |
+    #               config vdom
+    #               edit DMZ
+    #               diag sys session full-stat
+    #               diagnose netlink aggregate name LAG-01     
+    #               get system interface | grep vlan   
+    #               get router info routing-table all 
+    #               dia vpn ike status
+    #               get vpn ike gateway
+    #               get vpn ipsec tunnel summary
+    #               dia vpn tunnel stat 
+
+    # - copy:
+    #     content: "{{ dmz_checks.stdout }}"
+    #     dest: "logs/{{ inventory_hostname }}_dmz_vdom.txt"
+    #   delegate_to: localhost
+
+    # - name: Issue dump logs
+    #   raw: "{{ commands }}"
+    #   register: dump_logs
+    #   vars:
+    #     commands: |
+    #               config global
+    #               diagnose debug crashlog read
+    #               diagnose debug config-error-log read
+    #               exec date 
+    # - copy:
+    #     content: "{{ dump_logs.stdout }}"
+    #     dest: "logs/{{ inventory_hostname }}_dump_logs.txt"
+    #   delegate_to: localhost
