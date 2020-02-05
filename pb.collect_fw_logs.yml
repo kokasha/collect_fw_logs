@@ -1,0 +1,55 @@
+- name: Retrieve Output from Devices
+  hosts: fw01
+  vars:
+    # ansible_connection: network_cli
+  tasks:
+    - name: Create logs folder
+      file: paath=logs  state=directory
+    - name: Issue Basic Check
+      raw:  "{{ commands }}"
+      register: basic_check
+      vars:
+        commands: |
+                  config global 
+                  diag sys ha checksum show
+                  get sys ha status
+                  get sys performance status
+    - copy:
+        content: "{{ basic_checks.stdout }}"
+        dest: "logs/{{ inventory_hostname }}_basic.txt"
+      delegate_to: localhost
+
+    - name: Issue DMZ VDOM Checks
+      raw: "{{ commands }}"
+      register: dmz_checks
+      vars:
+        commands: |
+                  config vdom
+                  edit DMZ
+                  diag sys session full-stat
+                  diagnose netlink aggregate name LAG-01     
+                  get system interface | grep vlan   
+                  get router info routing-table all 
+                  dia vpn ike status
+                  get vpn ike gateway
+                  get vpn ipsec tunnel summary
+                  dia vpn tunnel stat 
+
+    - copy:
+        content: "{{ dmz_checks.stdout }}"
+        dest: "logs/{{ inventory_hostname }}_dmz_vdom.txt"
+      delegate_to: localhost
+
+    - name: Issue dump logs
+      raw: "{{ commands }}"
+      register: dump_logs
+      vars:
+        commands: |
+                  config global
+                  diagnose debug crashlog read
+                  diagnose debug config-error-log read
+                  exec date 
+    - copy:
+        content: "{{ dump_logs.stdout }}"
+        dest: "logs/{{ inventory_hostname }}_dump_logs.txt"
+      delegate_to: localhost

@@ -1,0 +1,13 @@
+[fortinet]
+fw01    ansible_host=192.168.0.222
+
+[all:vars]
+ansible_user=ansible
+ansible_password=ansible123
+#ansible_connection=network_cli
+#ansible_connection=httpapi
+ansible_network_os=voss
+ansible_python_interpreter=/Users/kokasha/OneDrive/Redhat_Work/projects/Optus/net_automation/mobile_core/lab_setup/.ansible29/bin/python
+
+
+
