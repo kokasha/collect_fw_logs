@@ -1,1 +1,1 @@
-{"stderr_lines": ["Shared connection to 10.250.164.102 closed."], "ansible_loop_var": "item", "failed": false, "stdout": "o22rrlabsecgw06 # \r\no22rrlabsecgw06 (global) # \r\no22rrlabsecgw06 (global) # ", "changed": true, "item": {"cmd": "config global \ndiagnose debug config-error-log read\n", "id": "diagnose debug config-error-log read"}, "stderr": "Shared connection to 10.250.164.102 closed.\r\n", "rc": 0, "stdout_lines": ["o22rrlabsecgw06 # ", "o22rrlabsecgw06 (global) # ", "o22rrlabsecgw06 (global) # "]}
+o
