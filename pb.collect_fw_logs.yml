@@ -1,5 +1,5 @@
 - name: Retrieve Output from Devices
-  hosts: fw01
+  hosts: fws
   vars:
     # ansible_connection: network_cli
     commands:
@@ -82,7 +82,7 @@
 
     - copy:
         content: "{{ item.0}}"
-        dest: "logs/{{ inventory_hostname }}/{{ item.1.id | regex_replace('[ |]'','_') }}.txt"
+        dest: "logs/{{ inventory_hostname }}/{{ item.1.id | regex_replace('[ |]','_') }}.txt"
       with_together:
         - "{{ basic_checks.results }}"
         - "{{ commands }}"
