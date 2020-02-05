@@ -1,0 +1,83 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (vdom) # current vf=DMZ:4
+
+o22rrlabsecgw03 (DMZ) # session table:		 table_size=33554432 max_depth=1 used=222
+misc info:	 session_count=111 setup_rate=0 exp_count=7 clash=0
+	memory_tension_drop=0 ephemeral=0/8454144 removeable=0
+	npu_session_count=10
+	nturbo_session_count=0
+delete=0, flush=0, dev_down=0/0 ses_flush_filters=0
+flush_work_num=0
+TCP sessions:
+	 49 in ESTABLISHED state
+firewall error stat:
+error1=00000000
+error2=00000000
+error3=00000000
+error4=00000000
+tt=00000000
+cont=00000000
+ids_recv=00000000
+url_recv=00000000
+av_recv=00000000
+fqdn_count=00000004
+fqdn6_count=00000000
+
+o22rrlabsecgw03 (DMZ) # LACP flags: (A|P)(S|F)(A|I)(I|O)(E|D)(E|D)
+(A|P) - LACP mode is Active or Passive
+(S|F) - LACP speed is Slow or Fast
+(A|I) - Aggregatable or Individual
+(I|O) - Port In sync or Out of sync
+(E|D) - Frame collection is Enabled or Disabled
+(E|D) - Frame distribution is Enabled or Disabled
+
+status: down
+npu: y
+flush: n
+asic helper: y
+oid: 232
+ports: 2
+link-up-delay: 50ms
+min-links: 1
+ha: master
+distribution algorithm: L4
+LACP mode: active
+LACP speed: slow
+LACP HA: enable
+
+slave: port12
+  index: 0
+  link status: down
+  link failure count: 0
+  permanent MAC addr: e8:1c:ba:6d:f1:47
+
+slave: port13
+  index: 1
+  link status: down
+  link failure count: 0
+  permanent MAC addr: e8:1c:ba:6d:f1:48
+
+
+o22rrlabsecgw03 (DMZ) # == [ vlan123_m38_pe1 ]
+name: vlan123_m38_pe1   mode: static    ip: 192.168.201.10 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan124_m44_pe1 ]
+name: vlan124_m44_pe1   mode: static    ip: 192.168.201.18 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan125_m42_pe1 ]
+name: vlan125_m42_pe1   mode: static    ip: 192.168.201.26 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan126_ha_pe1 ]
+name: vlan126_ha_pe1   mode: static    ip: 192.168.201.22 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+
+o22rrlabsecgw03 (DMZ) # 
+o22rrlabsecgw03 (DMZ) # connection: 5/115
+IKE SA: created 5/174  established 5/174  times 0/180/7040 ms
+IPsec SA: created 15/1331  established 15/1298  times 0/7/8190 ms
+
+o22rrlabsecgw03 (DMZ) # 
+o22rrlabsecgw03 (DMZ) # 
+o22rrlabsecgw03 (DMZ) # dev=7 attached=6 tunnel=0 proxyid=15 sa=15 conc=0 up=15 crypto_work=0
+
+o22rrlabsecgw03 (DMZ) # 

@@ -1,13 +1,14 @@
 - name: Retrieve Output from Devices
-  hosts: fw01
+  hosts: fws
   vars:
     # ansible_connection: network_cli
   tasks:
     - name: Create logs folder
-      file: paath=logs  state=directory
+      file: path=logs  state=directory
+      delegate_to: localhost
     - name: Issue Basic Check
       raw:  "{{ commands }}"
-      register: basic_check
+      register: basic_checks
       vars:
         commands: |
                   config global 
