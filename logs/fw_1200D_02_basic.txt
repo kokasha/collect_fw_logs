@@ -1,0 +1,78 @@
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (global) # is_manage_master()=0, is_root_master()=0
+debugzone
+global: 78 66 f9 c8 49 9d c2 8f ba be 8c 38 ef 8d d9 9b 
+root: 39 14 a2 48 76 98 9e b2 81 99 da 37 39 ac 5a 66 
+LTE_Traffic: f8 a6 98 77 53 bd a2 12 6f 7e b2 03 e5 ea 42 b3 
+LTE: 97 13 c3 62 23 ad 44 8c a9 58 5e d3 b9 6c a2 07 
+all: dc 64 85 9c 9b 4a 8a 0c c0 c3 87 5b c4 60 2d 4b 
+
+checksum
+global: 78 66 f9 c8 49 9d c2 8f ba be 8c 38 ef 8d d9 9b 
+root: 39 14 a2 48 76 98 9e b2 81 99 da 37 39 ac 5a 66 
+LTE_Traffic: f8 a6 98 77 53 bd a2 12 6f 7e b2 03 e5 ea 42 b3 
+LTE: 97 13 c3 62 23 ad 44 8c a9 58 5e d3 b9 6c a2 07 
+all: dc 64 85 9c 9b 4a 8a 0c c0 c3 87 5b c4 60 2d 4b 
+
+o22rrlabsecgw06 (global) # HA Health Status: 
+    WARNING: FG1K2D3I16801926 has mondev down; 
+Model: FortiGate-1200D
+Mode: HA A-P
+Group: 8
+Debug: 0
+Cluster Uptime: 76 days 7:36:14
+Cluster state change time: 2020-01-17 14:47:55
+Master selected using:
+    <2020/01/17 14:47:55> FG1K2D3I17800129 is selected as the master because it has the largest value of serialno.
+    <2020/01/17 14:44:19> FG1K2D3I16801926 is selected as the master because it has the largest value of override priority.
+    <2020/01/17 14:44:18> FG1K2D3I17800129 is selected as the master because it has the least value 0 of link-failure + pingsvr-failure.
+    <2020/01/17 14:34:49> FG1K2D3I16801926 is selected as the master because it has the largest value of override priority.
+ses_pickup: enable, ses_pickup_delay=disable
+override: enable
+Configuration Status:
+    FG1K2D3I16801926(updated 3 seconds ago): in-sync
+    FG1K2D3I17800129(updated 3 seconds ago): in-sync
+System Usage stats:
+    FG1K2D3I16801926(updated 3 seconds ago):
+        sessions=794, average-cpu-user/nice/system/idle=0%/0%/1%/98%, memory=21%
+    FG1K2D3I17800129(updated 3 seconds ago):
+        sessions=933, average-cpu-user/nice/system/idle=0%/0%/1%/98%, memory=21%
+HBDEV stats:
+    FG1K2D3I16801926(updated 3 seconds ago):
+        port18: physical/1000auto, up, rx-bytes/packets/dropped/errors=32955870644/54361485/0/0, tx=16849586991/48089216/0/0
+        port26: physical/1000auto, up, rx-bytes/packets/dropped/errors=12575517960/23877357/0/0, tx=12111333100/23876809/0/0
+    FG1K2D3I17800129(updated 3 seconds ago):
+        port18: physical/1000auto, up, rx-bytes/packets/dropped/errors=16850361963/48090742/0/0, tx=32956857602/54363396/0/0
+        port26: physical/1000auto, up, rx-bytes/packets/dropped/errors=12111431570/23877001/0/0, tx=12575759639/23877817/0/0
+MONDEV stats:
+    FG1K2D3I16801926(updated 3 seconds ago):
+        LAG-01: aggregate/00, down, rx-bytes/packets/dropped/errors=105798388230/110338161/0/0, tx=106895325890/91472013/0/0
+    FG1K2D3I17800129(updated 3 seconds ago):
+        LAG-01: aggregate/00, up, rx-bytes/packets/dropped/errors=19293759473601/20998544002/0/795794, tx=19627260561656/20829077651/0/0
+Slave : o22rrlabsecgw06 , FG1K2D3I16801926, cluster index = 1
+Master: o22rrlabsecgw05 , FG1K2D3I17800129, cluster index = 0
+number of vcluster: 1
+vcluster 1: standby 169.254.0.1
+Slave : FG1K2D3I16801926, operating cluster index = 1
+Master: FG1K2D3I17800129, operating cluster index = 0
+
+o22rrlabsecgw06 (global) # CPU states: 0% user 2% system 0% nice 98% idle 0% iowait 0% irq 0% softirq
+CPU0 states: 0% user 2% system 0% nice 98% idle 0% iowait 0% irq 0% softirq
+CPU1 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU2 states: 0% user 4% system 0% nice 96% idle 0% iowait 0% irq 0% softirq
+CPU3 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU4 states: 0% user 6% system 0% nice 94% idle 0% iowait 0% irq 0% softirq
+CPU5 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU6 states: 0% user 6% system 0% nice 94% idle 0% iowait 0% irq 0% softirq
+CPU7 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+Memory: 16450336k total, 3302272k used (20.1%), 12978192k free (78.9%), 169872k freeable (1.0%)
+Average network usage: 81 / 47 kbps in 1 minute, 78 / 47 kbps in 10 minutes, 76 / 46 kbps in 30 minutes
+Average sessions: 681 sessions in 1 minute, 678 sessions in 10 minutes, 685 sessions in 30 minutes
+Average session setup rate: 0 sessions per second in last 1 minute, 0 sessions per second in last 10 minutes, 0 sessions per second in last 30 minutes
+Average NPU sessions: 0 sessions in last 1 minute, 0 sessions in last 10 minutes, 0 sessions in last 30 minutes
+Average nTurbo sessions: 0 sessions in last 1 minute, 0 sessions in last 10 minutes, 0 sessions in last 30 minutes
+Virus caught: 0 total in 1 minute
+IPS attacks blocked: 0 total in 1 minute
+Uptime: 55 days,  6 hours,  44 minutes
+
+o22rrlabsecgw06 (global) # 

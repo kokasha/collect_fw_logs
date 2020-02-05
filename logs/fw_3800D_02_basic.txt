@@ -1,0 +1,85 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (global) # is_manage_master()=1, is_root_master()=1
+debugzone
+global: a6 06 22 d5 bc 52 2a 0b 3e dd 72 d8 de d9 71 30 
+root: 3b bd 28 71 32 c4 c7 84 ea 48 43 83 f1 a5 5a ed 
+LTE_Traffic: c1 76 14 64 38 3e bd 12 12 5b 13 52 55 2b 01 c9 
+DMZ: 02 ab c9 d6 76 63 53 5d 6c 96 2e 6c de 83 93 a9 
+all: e9 6a 66 39 08 11 95 98 8c 25 85 db 24 c8 5f 0e 
+
+checksum
+global: a6 06 22 d5 bc 52 2a 0b 3e dd 72 d8 de d9 71 30 
+root: 3b bd 28 71 32 c4 c7 84 ea 48 43 83 f1 a5 5a ed 
+LTE_Traffic: c1 76 14 64 38 3e bd 12 12 5b 13 52 55 2b 01 c9 
+DMZ: 02 ab c9 d6 76 63 53 5d 6c 96 2e 6c de 83 93 a9 
+all: e9 6a 66 39 08 11 95 98 8c 25 85 db 24 c8 5f 0e 
+
+o22rrlabsecgw03 (global) # HA Health Status: OK
+Model: FortiGate-3800D
+Mode: Standalone
+Group: 0
+Debug: 0
+Cluster Uptime: 0 days 0:0:0
+Cluster state change time: N/A
+ses_pickup: enable, ses_pickup_delay=disable
+override: disable
+System Usage stats:
+HBDEV stats:
+number of vcluster: 0
+
+o22rrlabsecgw03 (global) # CPU states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU0 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU1 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU2 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU3 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU4 states: 5% user 0% system 0% nice 95% idle 0% iowait 0% irq 0% softirq
+CPU5 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU6 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU7 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU8 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU9 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU10 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU11 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU12 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU13 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU14 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU15 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU16 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU17 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU18 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU19 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU20 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU21 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU22 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU23 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU24 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU25 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU26 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU27 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU28 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU29 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU30 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU31 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU32 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU33 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU34 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU35 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU36 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU37 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU38 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU39 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+Memory: 132108832k total, 12027472k used (9.1%), 119180480k free (90.2%), 900880k freeable (0.7%)
+Average network usage: 72 / 58 kbps in 1 minute, 67 / 50 kbps in 10 minutes, 65 / 50 kbps in 30 minutes
+Average sessions: 115 sessions in 1 minute, 123 sessions in 10 minutes, 124 sessions in 30 minutes
+Average session setup rate: 0 sessions per second in last 1 minute, 0 sessions per second in last 10 minutes, 0 sessions per second in last 30 minutes
+Average NPU sessions: 10 sessions in last 1 minute, 10 sessions in last 10 minutes, 10 sessions in last 30 minutes
+Average nTurbo sessions: 0 sessions in last 1 minute, 0 sessions in last 10 minutes, 0 sessions in last 30 minutes
+Virus caught: 0 total in 1 minute
+IPS attacks blocked: 0 total in 1 minute
+Uptime: 6 days,  3 hours,  44 minutes
+
+o22rrlabsecgw03 (global) # 
