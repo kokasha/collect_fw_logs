@@ -1,1 +1,5 @@
-o
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (vdom) # current vf=DMZ:6
+
+o22rrlabsecgw06 (DMZ) # 
+o22rrlabsecgw06 (DMZ) # 

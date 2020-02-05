@@ -1,1 +1,8 @@
-o
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (vdom) # current vf=DMZ:6
+
+o22rrlabsecgw06 (DMZ) # connection: 119/24673
+IKE SA: created 93/180380  established 93/159806  times 0/192/25190 ms
+IPsec SA: created 112/164949  established 112/154362  times 0/1/27930 ms
+
+o22rrlabsecgw06 (DMZ) # 

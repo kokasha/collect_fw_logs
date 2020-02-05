@@ -81,7 +81,7 @@
       register: basic_checks
 
     - copy:
-        content: "{{ item.0.stdout[0]}}"
+        content: "{{ item.0.stdout}}"
         dest: "logs/{{ inventory_hostname }}/{{ item.1.id | regex_replace('[ |]','_') }}.txt"
       with_together:
         - "{{ basic_checks.results }}"

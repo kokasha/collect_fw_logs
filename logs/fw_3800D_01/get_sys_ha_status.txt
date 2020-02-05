@@ -1,1 +1,19 @@
-W
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (global) # HA Health Status: OK
+Model: FortiGate-3800D
+Mode: Standalone
+Group: 0
+Debug: 0
+Cluster Uptime: 0 days 0:0:0
+Cluster state change time: N/A
+ses_pickup: enable, ses_pickup_delay=disable
+override: disable
+System Usage stats:
+HBDEV stats:
+number of vcluster: 0
+
+o22rrlabsecgw03 (global) # 

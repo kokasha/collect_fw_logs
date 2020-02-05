@@ -1,1 +1,6 @@
-o
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (vdom) # current vf=DMZ:6
+
+o22rrlabsecgw05 (DMZ) # dev=131 attached=0 tunnel=0 proxyid=173 sa=114 conc=0 up=94 crypto_work=0
+
+o22rrlabsecgw05 (DMZ) # 

@@ -1,1 +1,80 @@
-o
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (vdom) # current vf=DMZ:6
+
+o22rrlabsecgw05 (DMZ) # LACP flags: (A|P)(S|F)(A|I)(I|O)(E|D)(E|D)
+(A|P) - LACP mode is Active or Passive
+(S|F) - LACP speed is Slow or Fast
+(A|I) - Aggregatable or Individual
+(I|O) - Port In sync or Out of sync
+(E|D) - Frame collection is Enabled or Disabled
+(E|D) - Frame distribution is Enabled or Disabled
+
+status: up
+npu: y
+flush: n
+asic helper: y
+oid: 147
+ports: 3
+link-up-delay: 50ms
+min-links: 3
+ha: master
+distribution algorithm: NPU
+LACP mode: active
+LACP speed: slow
+LACP HA: enable
+aggregator ID: 1
+actor key: 33
+actor MAC address: 90:6c:ac:eb:c5:f8
+partner key: 37
+partner MAC address: 00:2a:6a:06:6c:c1
+
+slave: port33
+  index: 0
+  link status: up
+  link failure count: 0
+  permanent MAC addr: 90:6c:ac:eb:c5:f8
+  LACP state: established
+  actor state: ASAIEE
+  actor port number/key/priority: 1 33 255
+  partner state: ASAIEE
+  partner port number/key/priority: 266 37 32768
+  partner system: 22875 00:2a:6a:06:6c:c1
+  aggregator ID: 1
+  speed/duplex: 10000 1
+  RX state: CURRENT 6
+  MUX state: COLLECTING_DISTRIBUTING 4
+
+slave: port34
+  index: 1
+  link status: up
+  link failure count: 0
+  permanent MAC addr: 90:6c:ac:eb:c5:f9
+  LACP state: established
+  actor state: ASAIEE
+  actor port number/key/priority: 2 33 255
+  partner state: ASAIEE
+  partner port number/key/priority: 267 37 32768
+  partner system: 22875 00:2a:6a:06:6c:c1
+  aggregator ID: 1
+  speed/duplex: 10000 1
+  RX state: CURRENT 6
+  MUX state: COLLECTING_DISTRIBUTING 4
+
+slave: port35
+  index: 2
+  link status: up
+  link failure count: 1
+  permanent MAC addr: 90:6c:ac:eb:c6:0a
+  LACP state: established
+  actor state: ASAIEE
+  actor port number/key/priority: 3 33 255
+  partner state: ASAIEE
+  partner port number/key/priority: 268 37 32768
+  partner system: 22875 00:2a:6a:06:6c:c1
+  aggregator ID: 1
+  speed/duplex: 10000 1
+  RX state: CURRENT 6
+  MUX state: COLLECTING_DISTRIBUTING 4
+
+
+o22rrlabsecgw05 (DMZ) # 
