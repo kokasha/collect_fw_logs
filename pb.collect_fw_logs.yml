@@ -1,78 +1,103 @@
 - name: Retrieve Output from Devices
   hosts: fws
   vars:
-    # ansible_connection: network_cli
     commands:
       - id: diag sys ha checksum show
+        vdom: global
         cmd: | 
             config global 
             diag sys ha checksum show
 
       - id: get sys ha status
+        vdom: global
         cmd: | 
             config global 
             get sys ha status
 
       - id: get sys performance status
+        vdom: global
         cmd: | 
             config global 
             get sys performance status
 
       - id: diag sys session full-stat
+        vdom: LTE_Traffic
         cmd: | 
             config vdom
-            edit DMZ 
+            edit LTE_Traffic 
             diag sys session full-stat
 
       - id: diagnose netlink aggregate name LAG-01
+        vdom: LTE_Traffic
         cmd: | 
             config vdom
-            edit DMZ 
+            edit LTE_Traffic 
             diagnose netlink aggregate name LAG-01
 
-      - id: get system interface | grep vlan
+      - id: get system interface
+        vdom: LTE_Traffic
         cmd: | 
             config vdom
-            edit DMZ 
+            edit LTE_Traffic 
+            get system interface
+
+      - id: get system interface | grep vlan
+        vdom: LTE_Traffic
+        cmd: | 
+            config vdom
+            edit LTE_Traffic 
             get system interface | grep vlan 
 
-      - id: diag vpn ike status
+      - id: get router info routing-table all
+        vdom: LTE_Traffic
         cmd: | 
             config vdom
-            edit DMZ 
+            edit LTE_Traffic 
+            get router info routing-table all
+
+      - id: diag vpn ike status
+        vdom: LTE_Traffic
+        cmd: | 
+            config vdom
+            edit LTE_Traffic 
             diag vpn ike status
 
       - id: get vpn ike gateway
+        vdom: LTE_Traffic
         cmd: | 
             config vdom
-            edit DMZ 
+            edit LTE_Traffic 
             get vpn ike gateway
 
       - id: get vpn ipsec tunnel summary
+        vdom: LTE_Traffic
         cmd: | 
             config vdom
-            edit DMZ 
+            edit LTE_Traffic 
             get vpn ipsec tunnel summary
 
       - id: diag vpn tunnel stat
+        vdom: LTE_Traffic
         cmd: | 
             config vdom
-            edit DMZ 
+            edit LTE_Traffic 
             diag vpn tunnel stat
 
       - id: diagnose debug crashlog read
+        vdom: global
         cmd: | 
             config global
             diagnose debug crashlog read
 
       - id: diagnose debug config-error-log read
+        vdom: global
         cmd: | 
             config global 
             diagnose debug config-error-log read
 
   tasks:
     - name: Create logs folder
-      file: path=logs/{{ inventory_hostname }}  state=directory
+      file: path=final_logs/{{ inventory_hostname }}  state=directory
       delegate_to: localhost
 
     - name: Issue Basic Check
@@ -82,43 +107,8 @@
 
     - copy:
         content: "{{ item.0.stdout}}"
-        dest: "logs/{{ inventory_hostname }}/{{ item.1.id | regex_replace('[ |]','_') }}.txt"
+        dest: "final_logs/{{ inventory_hostname }}/{{ item.1.vdom }}_{{ item.1.id | regex_replace('[ |]','_') }}.txt"
       with_together:
         - "{{ basic_checks.results }}"
         - "{{ commands }}"
       delegate_to: localhost
-
-    # - name: Issue DMZ VDOM Checks
-    #   raw: "{{ commands }}"
-    #   register: dmz_checks
-    #   vars:
-    #     commands: |
-    #               config vdom
-    #               edit DMZ
-    #               diag sys session full-stat
-    #               diagnose netlink aggregate name LAG-01     
-    #               get system interface | grep vlan   
-    #               get router info routing-table all 
-    #               dia vpn ike status
-    #               get vpn ike gateway
-    #               get vpn ipsec tunnel summary
-    #               dia vpn tunnel stat 
-
-    # - copy:
-    #     content: "{{ dmz_checks.stdout }}"
-    #     dest: "logs/{{ inventory_hostname }}_dmz_vdom.txt"
-    #   delegate_to: localhost
-
-    # - name: Issue dump logs
-    #   raw: "{{ commands }}"
-    #   register: dump_logs
-    #   vars:
-    #     commands: |
-    #               config global
-    #               diagnose debug crashlog read
-    #               diagnose debug config-error-log read
-    #               exec date 
-    # - copy:
-    #     content: "{{ dump_logs.stdout }}"
-    #     dest: "logs/{{ inventory_hostname }}_dump_logs.txt"
-    #   delegate_to: localhost
