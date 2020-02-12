@@ -1,0 +1,8 @@
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw05 (LTE_Traffic) # connection: 120/9985407
+IKE SA: created 151/10184896  established 102/182448  times 0/185/25190 ms
+IPsec SA: created 347/5600747  established 124/177786  times 0/96/32010 ms
+
+o22rrlabsecgw05 (LTE_Traffic) # 

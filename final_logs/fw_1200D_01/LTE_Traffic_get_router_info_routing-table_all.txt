@@ -1,0 +1,465 @@
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw05 (LTE_Traffic) # 
+Routing table for VRF=0
+Codes: K - kernel, C - connected, S - static, R - RIP, B - BGP
+       O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default
+
+S       10.116.18.29/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.18.48/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.18.49/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.18.93/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.18.112/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.18.113/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.28.2/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.6/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.9/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.10/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.14/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.18/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.22/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.30/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.34/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.42/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.46/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.50/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.54/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.58/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.62/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.66/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.70/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.74/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.78/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.82/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.86/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.90/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.94/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.98/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.102/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.106/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.110/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.114/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.118/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.122/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.126/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.28.128/32 [10/0] is directly connected, e10.116.28.2
+S       10.116.28.130/32 [10/0] is directly connected, e10.116.28.10
+S       10.116.28.131/32 [10/0] is directly connected, e10.116.28.14
+S       10.116.28.132/32 [10/0] is directly connected, e10.116.28.18
+S       10.116.28.135/32 [10/0] is directly connected, n10.116.28.30
+S       10.116.28.143/32 [10/0] is directly connected, e10.116.28.62
+S       10.116.28.144/32 [10/0] is directly connected, e10.116.28.66
+S       10.116.28.145/32 [10/0] is directly connected, e10.116.28.70
+S       10.116.28.146/32 [10/0] is directly connected, e10.116.28.74
+S       10.116.28.147/32 [10/0] is directly connected, n10.116.28.78
+S       10.116.28.148/32 [10/0] is directly connected, e10.116.28.82
+S       10.116.28.149/32 [10/0] is directly connected, n10.116.28.86
+S       10.116.28.151/32 [10/0] is directly connected, e10.116.28.94
+S       10.116.28.152/32 [10/0] is directly connected, e10.116.28.98
+S       10.116.28.154/32 [10/0] is directly connected, e10.116.28.106
+S       10.116.28.156/32 [10/0] is directly connected, e10.116.28.114
+S       10.116.28.157/32 [10/0] is directly connected, e10.116.28.118
+S       10.116.28.158/32 [10/0] is directly connected, e10.116.28.122
+S       10.116.28.159/32 [10/0] is directly connected, n10.116.28.126
+S       10.116.28.160/32 [10/0] is directly connected, e10.116.28.2
+S       10.116.28.162/32 [10/0] is directly connected, e10.116.28.10
+S       10.116.28.163/32 [10/0] is directly connected, e10.116.28.14
+S       10.116.28.164/32 [10/0] is directly connected, e10.116.28.18
+S       10.116.28.167/32 [10/0] is directly connected, n10.116.28.30
+S       10.116.28.175/32 [10/0] is directly connected, e10.116.28.62
+S       10.116.28.176/32 [10/0] is directly connected, e10.116.28.66
+S       10.116.28.177/32 [10/0] is directly connected, e10.116.28.70
+S       10.116.28.178/32 [10/0] is directly connected, e10.116.28.74
+S       10.116.28.179/32 [10/0] is directly connected, n10.116.28.78
+S       10.116.28.180/32 [10/0] is directly connected, e10.116.28.82
+S       10.116.28.181/32 [10/0] is directly connected, n10.116.28.86
+S       10.116.28.183/32 [10/0] is directly connected, e10.116.28.94
+S       10.116.28.184/32 [10/0] is directly connected, e10.116.28.98
+S       10.116.28.186/32 [10/0] is directly connected, e10.116.28.106
+S       10.116.28.188/32 [10/0] is directly connected, e10.116.28.114
+S       10.116.28.189/32 [10/0] is directly connected, e10.116.28.118
+S       10.116.28.190/32 [10/0] is directly connected, e10.116.28.122
+S       10.116.28.191/32 [10/0] is directly connected, n10.116.28.126
+S       10.116.28.192/32 [10/0] is directly connected, e10.116.28.2
+S       10.116.28.194/32 [10/0] is directly connected, e10.116.28.10
+S       10.116.28.195/32 [10/0] is directly connected, e10.116.28.14
+S       10.116.28.196/32 [10/0] is directly connected, e10.116.28.18
+S       10.116.28.199/32 [10/0] is directly connected, n10.116.28.30
+S       10.116.28.207/32 [10/0] is directly connected, e10.116.28.62
+S       10.116.28.208/32 [10/0] is directly connected, e10.116.28.66
+S       10.116.28.209/32 [10/0] is directly connected, e10.116.28.70
+S       10.116.28.210/32 [10/0] is directly connected, e10.116.28.74
+S       10.116.28.211/32 [10/0] is directly connected, n10.116.28.78
+S       10.116.28.212/32 [10/0] is directly connected, e10.116.28.82
+S       10.116.28.213/32 [10/0] is directly connected, n10.116.28.86
+S       10.116.28.215/32 [10/0] is directly connected, e10.116.28.94
+S       10.116.28.216/32 [10/0] is directly connected, e10.116.28.98
+S       10.116.28.218/32 [10/0] is directly connected, e10.116.28.106
+S       10.116.28.220/32 [10/0] is directly connected, e10.116.28.114
+S       10.116.28.221/32 [10/0] is directly connected, e10.116.28.118
+S       10.116.28.222/32 [10/0] is directly connected, e10.116.28.122
+S       10.116.28.223/32 [10/0] is directly connected, n10.116.28.126
+S       10.116.31.0/24 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.116.34.0/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.34.4/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.5/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.7/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.8/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.9/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.16/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.34.17/32 [10/0] is directly connected, h10.116.34.4
+S       10.116.34.18/32 [10/0] is directly connected, h10.116.34.5
+S       10.116.34.21/32 [10/0] is directly connected, n10.116.34.8
+S       10.116.34.22/32 [10/0] is directly connected, h10.116.34.9
+S       10.116.34.24/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.34.25/32 [10/0] is directly connected, h10.116.34.4
+S       10.116.34.26/32 [10/0] is directly connected, h10.116.34.5
+S       10.116.34.29/32 [10/0] is directly connected, n10.116.34.8
+S       10.116.34.30/32 [10/0] is directly connected, h10.116.34.9
+S       10.116.34.32/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.34.33/32 [10/0] is directly connected, h10.116.34.4
+S       10.116.34.34/32 [10/0] is directly connected, h10.116.34.5
+S       10.116.34.37/32 [10/0] is directly connected, n10.116.34.8
+S       10.116.34.38/32 [10/0] is directly connected, h10.116.34.9
+S       10.116.34.72/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.34.156/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.157/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.158/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.34.164/32 [10/0] is directly connected, n10.116.34.156
+S       10.116.34.165/32 [10/0] is directly connected, n10.116.34.157
+S       10.116.34.172/32 [10/0] is directly connected, n10.116.34.156
+S       10.116.34.173/32 [10/0] is directly connected, n10.116.34.157
+S       10.116.34.180/32 [10/0] is directly connected, n10.116.34.156
+S       10.116.34.181/32 [10/0] is directly connected, n10.116.34.157
+S       10.116.34.192/29 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.116.34.240/29 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.116.34.253/32 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.116.37.132/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.49.0/26 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.49.4/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.5/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.6/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.7/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.8/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.9/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.11/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.12/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.13/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.14/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.49.20/32 [10/0] is directly connected, n10.116.49.4
+S       10.116.49.21/32 [10/0] is directly connected, n10.116.49.5
+S       10.116.49.22/32 [10/0] is directly connected, n10.116.49.6
+S       10.116.49.23/32 [10/0] is directly connected, h10.116.49.7
+S       10.116.49.24/32 [10/0] is directly connected, h10.116.49.8
+S       10.116.49.30/32 [10/0] is directly connected, n10.116.49.14
+S       10.116.49.36/32 [10/0] is directly connected, n10.116.49.4
+S       10.116.49.37/32 [10/0] is directly connected, n10.116.49.5
+S       10.116.49.38/32 [10/0] is directly connected, n10.116.49.6
+S       10.116.49.39/32 [10/0] is directly connected, h10.116.49.7
+S       10.116.49.40/32 [10/0] is directly connected, h10.116.49.8
+S       10.116.49.46/32 [10/0] is directly connected, n10.116.49.14
+S       10.116.49.52/32 [10/0] is directly connected, n10.116.49.4
+S       10.116.49.53/32 [10/0] is directly connected, n10.116.49.5
+S       10.116.49.54/32 [10/0] is directly connected, n10.116.49.6
+S       10.116.49.55/32 [10/0] is directly connected, h10.116.49.7
+S       10.116.49.56/32 [10/0] is directly connected, h10.116.49.8
+S       10.116.49.62/32 [10/0] is directly connected, n10.116.49.14
+S       10.116.52.240/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.54.0/24 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.56.36/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.56.37/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.56.44/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.56.45/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.56.52/32 [10/0] is directly connected, n10.116.56.36
+S       10.116.56.60/32 [10/0] is directly connected, n10.116.56.44
+S       10.116.56.61/32 [10/0] is directly connected, n10.116.56.45
+S       10.116.56.64/27 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.56.68/32 [10/0] is directly connected, n10.116.56.36
+S       10.116.56.76/32 [10/0] is directly connected, n10.116.56.44
+S       10.116.56.77/32 [10/0] is directly connected, n10.116.56.45
+S       10.116.56.84/32 [10/0] is directly connected, n10.116.56.36
+S       10.116.56.92/32 [10/0] is directly connected, n10.116.56.44
+S       10.116.56.93/32 [10/0] is directly connected, n10.116.56.45
+S       10.116.59.48/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.56/30 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.96/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.96/32 [10/0] is directly connected, h10.116.59.226
+S       10.116.59.98/32 [10/0] is directly connected, n10.116.59.234
+S       10.116.59.101/32 [10/0] is directly connected, h10.116.59.246
+S       10.116.59.102/32 [10/0] is directly connected, h10.116.59.250
+S       10.116.59.104/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.104/32 [10/0] is directly connected, h10.116.59.226
+S       10.116.59.106/32 [10/0] is directly connected, n10.116.59.234
+S       10.116.59.109/32 [10/0] is directly connected, h10.116.59.246
+S       10.116.59.110/32 [10/0] is directly connected, h10.116.59.250
+S       10.116.59.112/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.112/32 [10/0] is directly connected, h10.116.59.226
+S       10.116.59.114/32 [10/0] is directly connected, n10.116.59.234
+S       10.116.59.117/32 [10/0] is directly connected, h10.116.59.246
+S       10.116.59.118/32 [10/0] is directly connected, h10.116.59.250
+S       10.116.59.128/27 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.160/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.176/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.184/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.192/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.224/27 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.59.226/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.59.230/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.59.234/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.59.238/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.59.241/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.59.242/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.59.246/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.59.250/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.0/24 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.60.2/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.6/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.10/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.14/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.18/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.22/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.26/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.30/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.34/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.38/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.42/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.46/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.50/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.54/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.58/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.66/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.70/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.74/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.78/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.82/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.86/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.90/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.94/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.98/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.102/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.106/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.110/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.114/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.118/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.122/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.126/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.116.60.128/32 [10/0] is directly connected, n10.116.60.2
+S       10.116.60.129/32 [10/0] is directly connected, n10.116.60.6
+S       10.116.60.130/32 [10/0] is directly connected, n10.116.60.10
+S       10.116.60.132/32 [10/0] is directly connected, n10.116.60.18
+S       10.116.60.133/32 [10/0] is directly connected, n10.116.60.22
+S       10.116.60.134/32 [10/0] is directly connected, n10.116.60.26
+S       10.116.60.136/32 [10/0] is directly connected, n10.116.60.34
+S       10.116.60.138/32 [10/0] is directly connected, n10.116.60.42
+S       10.116.60.139/32 [10/0] is directly connected, n10.116.60.46
+S       10.116.60.140/32 [10/0] is directly connected, h10.116.60.50
+S       10.116.60.141/32 [10/0] is directly connected, h10.116.60.54
+S       10.116.60.142/32 [10/0] is directly connected, n10.116.60.58
+S       10.116.60.148/32 [10/0] is directly connected, h10.116.60.82
+S       10.116.60.150/32 [10/0] is directly connected, n10.116.60.90
+S       10.116.60.151/32 [10/0] is directly connected, n10.116.60.94
+S       10.116.60.152/32 [10/0] is directly connected, h10.116.60.98
+S       10.116.60.159/32 [10/0] is directly connected, h10.116.60.126
+S       10.116.60.160/32 [10/0] is directly connected, n10.116.60.2
+S       10.116.60.161/32 [10/0] is directly connected, n10.116.60.6
+S       10.116.60.162/32 [10/0] is directly connected, n10.116.60.10
+S       10.116.60.164/32 [10/0] is directly connected, n10.116.60.18
+S       10.116.60.165/32 [10/0] is directly connected, n10.116.60.22
+S       10.116.60.166/32 [10/0] is directly connected, n10.116.60.26
+S       10.116.60.168/32 [10/0] is directly connected, n10.116.60.34
+S       10.116.60.170/32 [10/0] is directly connected, n10.116.60.42
+S       10.116.60.171/32 [10/0] is directly connected, n10.116.60.46
+S       10.116.60.172/32 [10/0] is directly connected, h10.116.60.50
+S       10.116.60.173/32 [10/0] is directly connected, h10.116.60.54
+S       10.116.60.174/32 [10/0] is directly connected, n10.116.60.58
+S       10.116.60.180/32 [10/0] is directly connected, h10.116.60.82
+S       10.116.60.182/32 [10/0] is directly connected, n10.116.60.90
+S       10.116.60.183/32 [10/0] is directly connected, n10.116.60.94
+S       10.116.60.184/32 [10/0] is directly connected, h10.116.60.98
+S       10.116.60.191/32 [10/0] is directly connected, h10.116.60.126
+S       10.116.60.192/32 [10/0] is directly connected, n10.116.60.2
+S       10.116.60.193/32 [10/0] is directly connected, n10.116.60.6
+S       10.116.60.194/32 [10/0] is directly connected, n10.116.60.10
+S       10.116.60.196/32 [10/0] is directly connected, n10.116.60.18
+S       10.116.60.197/32 [10/0] is directly connected, n10.116.60.22
+S       10.116.60.198/32 [10/0] is directly connected, n10.116.60.26
+S       10.116.60.200/32 [10/0] is directly connected, n10.116.60.34
+S       10.116.60.202/32 [10/0] is directly connected, n10.116.60.42
+S       10.116.60.203/32 [10/0] is directly connected, n10.116.60.46
+S       10.116.60.204/32 [10/0] is directly connected, h10.116.60.50
+S       10.116.60.205/32 [10/0] is directly connected, h10.116.60.54
+S       10.116.60.206/32 [10/0] is directly connected, n10.116.60.58
+S       10.116.60.212/32 [10/0] is directly connected, h10.116.60.82
+S       10.116.60.214/32 [10/0] is directly connected, n10.116.60.90
+S       10.116.60.215/32 [10/0] is directly connected, n10.116.60.94
+S       10.116.60.216/32 [10/0] is directly connected, h10.116.60.98
+S       10.116.60.223/32 [10/0] is directly connected, h10.116.60.126
+S       10.116.61.136/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.232.0/26 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.116.232.65/32 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.116.233.168/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.116.238.254/32 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.117.226.0/25 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.127.37.192/32 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.127.87.24/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.127.87.32/27 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.127.88.128/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.127.88.136/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.127.95.112/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.195.11.0/24 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.195.72.0/22 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.198.72.0/22 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.129.32/28 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.250.132.112/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.132.128/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.132.144/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.132.160/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.136.64/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.136.192/28 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.137.0/25 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.139.13/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.139.14/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.139.77/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.139.78/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.156.51/32 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.250.157.4/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.157.5/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.157.6/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.157.7/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.157.17/32 [10/0] is directly connected, n10.250.157.4
+S       10.250.157.20/32 [10/0] is directly connected, h10.250.157.7
+S       10.250.157.33/32 [10/0] is directly connected, n10.250.157.4
+S       10.250.157.36/32 [10/0] is directly connected, h10.250.157.7
+S       10.250.157.49/32 [10/0] is directly connected, n10.250.157.4
+S       10.250.157.52/32 [10/0] is directly connected, h10.250.157.7
+S       10.250.157.112/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.160.128/27 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.250.160.192/27 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.250.160.224/27 [10/0] via 10.250.164.65, vlan226_mplane
+C       10.250.164.64/29 is directly connected, vlan226_mplane
+C       10.250.164.72/29 is directly connected, vlan228_eRan
+C       10.250.164.80/29 is directly connected, vlan227_s1plane
+S       10.250.170.108/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.170.236/32 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.171.128/26 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.250.174.104/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.175.6/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.175.10/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.175.38/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.175.42/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.175.64/29 [10/0] via 10.250.164.81, vlan227_s1plane
+C       10.250.175.64/32 is directly connected, Lo-2
+S       10.250.175.65/32 [10/0] is directly connected, n10.250.175.6
+S       10.250.175.72/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.175.80/29 [10/0] via 10.250.164.81, vlan227_s1plane
+C       10.250.175.80/32 is directly connected, Lo-1
+S       10.250.175.81/32 [10/0] is directly connected, n10.250.175.6
+S       10.250.175.88/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.175.97/32 [10/0] is directly connected, n10.250.175.6
+S       10.250.175.112/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.175.120/29 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.176.0/25 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.250.177.0/25 [10/0] via 10.250.164.65, vlan226_mplane
+S       10.250.190.0/26 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.190.2/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.4/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.7/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.9/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.10/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.11/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.12/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.13/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.14/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.17/32 [10/0] is directly connected, n10.250.190.4
+S       10.250.190.22/32 [10/0] is directly connected, h10.250.190.9
+S       10.250.190.23/32 [10/0] is directly connected, h10.250.190.10
+S       10.250.190.24/32 [10/0] is directly connected, h10.250.190.11
+S       10.250.190.25/32 [10/0] is directly connected, h10.250.190.12
+S       10.250.190.33/32 [10/0] is directly connected, n10.250.190.4
+S       10.250.190.38/32 [10/0] is directly connected, h10.250.190.9
+S       10.250.190.39/32 [10/0] is directly connected, h10.250.190.10
+S       10.250.190.40/32 [10/0] is directly connected, h10.250.190.11
+S       10.250.190.41/32 [10/0] is directly connected, h10.250.190.12
+S       10.250.190.49/32 [10/0] is directly connected, n10.250.190.4
+S       10.250.190.54/32 [10/0] is directly connected, h10.250.190.9
+S       10.250.190.55/32 [10/0] is directly connected, h10.250.190.10
+S       10.250.190.56/32 [10/0] is directly connected, h10.250.190.11
+S       10.250.190.57/32 [10/0] is directly connected, h10.250.190.12
+S       10.250.190.64/26 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.190.68/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.69/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.70/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.71/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.72/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.73/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.74/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.75/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.76/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.77/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.78/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.79/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.80/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.81/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.82/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.83/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.84/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.85/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.86/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.87/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.88/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.89/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.90/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.91/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       10.250.190.99/32 [10/0] is directly connected, n10.250.190.70
+S       10.250.190.104/32 [10/0] is directly connected, h10.250.190.75
+S       10.250.190.105/32 [10/0] is directly connected, h10.250.190.76
+S       10.250.190.106/32 [10/0] is directly connected, h10.250.190.77
+S       10.250.190.107/32 [10/0] is directly connected, h10.250.190.78
+S       10.250.190.109/32 [10/0] is directly connected, h10.250.190.80
+S       10.250.190.110/32 [10/0] is directly connected, h10.250.190.81
+S       10.250.190.111/32 [10/0] is directly connected, h10.250.190.82
+S       10.250.190.114/32 [10/0] is directly connected, h10.250.190.85
+S       10.250.190.116/32 [10/0] is directly connected, h10.250.190.87
+S       10.250.190.119/32 [10/0] is directly connected, n10.250.190.90
+S       10.250.190.128/26 [10/0] via 10.250.164.81, vlan227_s1plane
+S       10.250.190.131/32 [10/0] is directly connected, n10.250.190.70
+S       10.250.190.136/32 [10/0] is directly connected, h10.250.190.75
+S       10.250.190.137/32 [10/0] is directly connected, h10.250.190.76
+S       10.250.190.138/32 [10/0] is directly connected, h10.250.190.77
+S       10.250.190.139/32 [10/0] is directly connected, h10.250.190.78
+S       10.250.190.141/32 [10/0] is directly connected, h10.250.190.80
+S       10.250.190.142/32 [10/0] is directly connected, h10.250.190.81
+S       10.250.190.143/32 [10/0] is directly connected, h10.250.190.82
+S       10.250.190.146/32 [10/0] is directly connected, h10.250.190.85
+S       10.250.190.148/32 [10/0] is directly connected, h10.250.190.87
+S       10.250.190.151/32 [10/0] is directly connected, n10.250.190.90
+S       10.250.190.163/32 [10/0] is directly connected, n10.250.190.70
+S       10.250.190.168/32 [10/0] is directly connected, h10.250.190.75
+S       10.250.190.169/32 [10/0] is directly connected, h10.250.190.76
+S       10.250.190.170/32 [10/0] is directly connected, h10.250.190.77
+S       10.250.190.171/32 [10/0] is directly connected, h10.250.190.78
+S       10.250.190.173/32 [10/0] is directly connected, h10.250.190.80
+S       10.250.190.174/32 [10/0] is directly connected, h10.250.190.81
+S       10.250.190.175/32 [10/0] is directly connected, h10.250.190.82
+S       10.250.190.178/32 [10/0] is directly connected, h10.250.190.85
+S       10.250.190.180/32 [10/0] is directly connected, h10.250.190.87
+S       10.250.190.183/32 [10/0] is directly connected, n10.250.190.90
+S       172.18.33.0/24 [10/0] via 10.250.164.65, vlan226_mplane
+S       172.22.18.0/24 [10/0] via 10.250.164.65, vlan226_mplane
+S       172.22.19.0/24 [10/0] via 10.250.164.81, vlan227_s1plane
+S       192.168.22.0/24 [10/0] via 10.250.164.65, vlan226_mplane
+S       192.168.136.0/24 [10/0] via 10.250.164.81, vlan227_s1plane
+S       192.168.195.0/25 [10/0] via 10.250.164.81, vlan227_s1plane
+S       192.168.198.80/28 [10/0] via 10.250.164.65, vlan226_mplane
+S       192.168.201.26/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       192.168.201.33/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       192.168.201.34/32 [10/0] via 10.250.164.73, vlan228_eRan
+S       198.142.222.16/28 [10/0] via 10.250.164.65, vlan226_mplane
+
+
+o22rrlabsecgw05 (LTE_Traffic) # 

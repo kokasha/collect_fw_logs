@@ -1,0 +1,44 @@
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (global) # HA Health Status: 
+    WARNING: FG1K2D3I16801926 has mondev down; 
+Model: FortiGate-1200D
+Mode: HA A-P
+Group: 8
+Debug: 0
+Cluster Uptime: 83 days 6:7:2
+Cluster state change time: 2020-01-17 14:47:55
+Master selected using:
+    <2020/01/17 14:47:55> FG1K2D3I17800129 is selected as the master because it has the largest value of serialno.
+    <2020/01/17 14:44:19> FG1K2D3I16801926 is selected as the master because it has the largest value of override priority.
+    <2020/01/17 14:44:18> FG1K2D3I17800129 is selected as the master because it has the least value 0 of link-failure + pingsvr-failure.
+    <2020/01/17 14:34:49> FG1K2D3I16801926 is selected as the master because it has the largest value of override priority.
+ses_pickup: enable, ses_pickup_delay=disable
+override: enable
+Configuration Status:
+    FG1K2D3I16801926(updated 2 seconds ago): in-sync
+    FG1K2D3I17800129(updated 2 seconds ago): in-sync
+System Usage stats:
+    FG1K2D3I16801926(updated 2 seconds ago):
+        sessions=846, average-cpu-user/nice/system/idle=0%/0%/1%/98%, memory=21%
+    FG1K2D3I17800129(updated 2 seconds ago):
+        sessions=976, average-cpu-user/nice/system/idle=0%/0%/1%/99%, memory=23%
+HBDEV stats:
+    FG1K2D3I16801926(updated 2 seconds ago):
+        port18: physical/1000auto, up, rx-bytes/packets/dropped/errors=37229746212/61447710/0/0, tx=18977456293/54244128/0/0
+        port26: physical/1000auto, up, rx-bytes/packets/dropped/errors=14158045368/26874568/0/0, tx=13633887840/26873964/0/0
+    FG1K2D3I17800129(updated 2 seconds ago):
+        port18: physical/1000auto, up, rx-bytes/packets/dropped/errors=18978230757/54245653/0/0, tx=37230731176/61449618/0/0
+        port26: physical/1000auto, up, rx-bytes/packets/dropped/errors=13633986310/26874156/0/0, tx=14158286519/26875027/0/0
+MONDEV stats:
+    FG1K2D3I16801926(updated 2 seconds ago):
+        LAG-01: aggregate/00, down, rx-bytes/packets/dropped/errors=105973005556/112579777/0/0, tx=106900441026/91511975/0/0
+    FG1K2D3I17800129(updated 2 seconds ago):
+        LAG-01: aggregate/00, up, rx-bytes/packets/dropped/errors=21780245270686/23750653702/0/856661, tx=22174575041314/23551970346/0/0
+Slave : o22rrlabsecgw06 , FG1K2D3I16801926, cluster index = 1
+Master: o22rrlabsecgw05 , FG1K2D3I17800129, cluster index = 0
+number of vcluster: 1
+vcluster 1: standby 169.254.0.1
+Slave : FG1K2D3I16801926, operating cluster index = 1
+Master: FG1K2D3I17800129, operating cluster index = 0
+
+o22rrlabsecgw06 (global) # 

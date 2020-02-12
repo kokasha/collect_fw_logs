@@ -1,0 +1,32 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (vdom) # current vf=LTE_Traffic:1
+
+o22rrlabsecgw03 (LTE_Traffic) # session table:		 table_size=33554432 max_depth=1 used=276
+misc info:	 session_count=138 setup_rate=2 exp_count=1 clash=2
+	memory_tension_drop=0 ephemeral=0/8454144 removeable=0
+	npu_session_count=10
+	nturbo_session_count=0
+delete=0, flush=0, dev_down=0/0 ses_flush_filters=0
+flush_work_num=0
+TCP sessions:
+	 36 in ESTABLISHED state
+	 1 in TIME_WAIT state
+	 16 in CLOSE state
+firewall error stat:
+error1=00000000
+error2=00000000
+error3=00000000
+error4=00000000
+tt=00000000
+cont=00000000
+ids_recv=00000000
+url_recv=00000000
+av_recv=00000000
+fqdn_count=00000004
+fqdn6_count=00000000
+
+o22rrlabsecgw03 (LTE_Traffic) # 

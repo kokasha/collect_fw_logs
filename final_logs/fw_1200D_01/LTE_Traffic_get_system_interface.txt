@@ -1,0 +1,369 @@
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw05 (LTE_Traffic) # == [ port1 ]
+name: port1   mode: dhcp    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port2 ]
+name: port2   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port3 ]
+name: port3   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port4 ]
+name: port4   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port5 ]
+name: port5   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port6 ]
+name: port6   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 3.3.3.3 255.255.255.255   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port7 ]
+name: port7   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port8 ]
+name: port8   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port9 ]
+name: port9   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port10 ]
+name: port10   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port11 ]
+name: port11   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port12 ]
+name: port12   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port13 ]
+name: port13   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port14 ]
+name: port14   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port15 ]
+name: port15   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port16 ]
+name: port16   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port17 ]
+name: port17   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port18 ]
+name: port18   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port19 ]
+name: port19   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port20 ]
+name: port20   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port21 ]
+name: port21   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port22 ]
+name: port22   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port23 ]
+name: port23   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port24 ]
+name: port24   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port25 ]
+name: port25   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port26 ]
+name: port26   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port27 ]
+name: port27   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port28 ]
+name: port28   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port29 ]
+name: port29   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port30 ]
+name: port30   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port31 ]
+name: port31   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port32 ]
+name: port32   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port33 ]
+name: port33   status: up    type: physical   scan-botnet-connections: disable    src-check: enable    aggregate: LAG-01    
+== [ port34 ]
+name: port34   status: up    type: physical   scan-botnet-connections: disable    src-check: enable    aggregate: LAG-01    
+== [ port35 ]
+name: port35   status: up    type: physical   scan-botnet-connections: disable    src-check: enable    aggregate: LAG-01    
+== [ port36 ]
+name: port36   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ mgmt1 ]
+name: mgmt1   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.164.100 255.255.255.224   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ mgmt2 ]
+name: mgmt2   ip: 10.250.164.101 255.255.255.224   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ modem ]
+name: modem   mode: pppoe    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ ssl.root ]
+name: ssl.root   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ ssl.LTE_Traffic ]
+name: ssl.LTE_Traffic   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ npu0_vlink0 ]
+name: npu0_vlink0   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu0_vlink1 ]
+name: npu0_vlink1   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu1_vlink0 ]
+name: npu1_vlink0   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu1_vlink1 ]
+name: npu1_vlink1   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ LAG-01 ]
+name: LAG-01   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: aggregate   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan226_mplane ]
+name: vlan226_mplane   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.164.68 255.255.255.248   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan228_eRan ]
+name: vlan228_eRan   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.164.76 255.255.255.248   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan227_s1plane ]
+name: vlan227_s1plane   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.164.84 255.255.255.248   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ h10.250.190.12 ]
+name: h10.250.190.12   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.34.4 ]
+name: h10.116.34.4   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.56.37 ]
+name: n10.116.56.37   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.56.36 ]
+name: n10.116.56.36   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.59.238 ]
+name: n10.116.59.238   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.49.11 ]
+name: n10.116.49.11   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.66 ]
+name: h10.116.60.66   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.82 ]
+name: h10.116.60.82   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.86 ]
+name: h10.116.60.86   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.50 ]
+name: h10.116.60.50   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.54 ]
+name: h10.116.60.54   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.30 ]
+name: h10.116.60.30   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.59.250 ]
+name: h10.116.59.250   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.59.246 ]
+name: h10.116.59.246   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.34.8 ]
+name: n10.116.34.8   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.56.44 ]
+name: n10.116.56.44   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.56.45 ]
+name: n10.116.56.45   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.59.234 ]
+name: n10.116.59.234   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.46 ]
+name: n10.116.60.46   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.69 ]
+name: n10.250.190.69   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.70 ]
+name: n10.250.190.70   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.71 ]
+name: n10.250.190.71   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.72 ]
+name: n10.250.190.72   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.90 ]
+name: n10.250.190.90   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.49.8 ]
+name: h10.116.49.8   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.157.7 ]
+name: h10.250.157.7   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.80 ]
+name: h10.250.190.80   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.4 ]
+name: n10.250.190.4   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.22 ]
+name: n10.116.60.22   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.7 ]
+name: n10.250.190.7   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.49.14 ]
+name: n10.116.49.14   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.10 ]
+name: n10.116.60.10   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.74 ]
+name: h10.116.60.74   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.198.74.82 ]
+name: n10.198.74.82   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.117.226.85 ]
+name: n10.117.226.85   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.78 ]
+name: h10.116.60.78   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.68 ]
+name: n10.250.190.68   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.14 ]
+name: n10.116.60.14   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.6 ]
+name: n10.116.60.6   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.2 ]
+name: n10.116.60.2   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.34.158 ]
+name: n10.116.34.158   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.102 ]
+name: h10.116.60.102   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.106 ]
+name: h10.116.60.106   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.110 ]
+name: h10.116.60.110   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.114 ]
+name: h10.116.60.114   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.118 ]
+name: h10.116.60.118   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.98 ]
+name: h10.116.60.98   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.90 ]
+name: n10.116.60.90   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.94 ]
+name: n10.116.60.94   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.122 ]
+name: n10.116.60.122   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.34.5 ]
+name: h10.116.34.5   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.34.7 ]
+name: h10.116.34.7   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.49.12 ]
+name: h10.116.49.12   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.49.13 ]
+name: h10.116.49.13   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.49.7 ]
+name: h10.116.49.7   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.49.9 ]
+name: h10.116.49.9   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.59.230 ]
+name: h10.116.59.230   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.157.5 ]
+name: h10.250.157.5   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.157.6 ]
+name: h10.250.157.6   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.10 ]
+name: h10.250.190.10   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.11 ]
+name: h10.250.190.11   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.13 ]
+name: h10.250.190.13   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.14 ]
+name: h10.250.190.14   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.75 ]
+name: h10.250.190.75   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.76 ]
+name: h10.250.190.76   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.77 ]
+name: h10.250.190.77   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.78 ]
+name: h10.250.190.78   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.79 ]
+name: h10.250.190.79   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.81 ]
+name: h10.250.190.81   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.82 ]
+name: h10.250.190.82   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.83 ]
+name: h10.250.190.83   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.84 ]
+name: h10.250.190.84   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.85 ]
+name: h10.250.190.85   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.86 ]
+name: h10.250.190.86   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.87 ]
+name: h10.250.190.87   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.88 ]
+name: h10.250.190.88   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.89 ]
+name: h10.250.190.89   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.91 ]
+name: h10.250.190.91   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.10 ]
+name: e10.116.28.10   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.34 ]
+name: n10.116.60.34   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.28.30 ]
+name: n10.116.28.30   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.250.190.9 ]
+name: h10.250.190.9   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.49.6 ]
+name: n10.116.49.6   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.14 ]
+name: e10.116.28.14   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.18 ]
+name: e10.116.28.18   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.28.22 ]
+name: n10.116.28.22   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.59.242 ]
+name: n10.116.59.242   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.70 ]
+name: n10.116.60.70   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.42 ]
+name: e10.116.28.42   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.46 ]
+name: e10.116.28.46   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.18 ]
+name: n10.116.60.18   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.58 ]
+name: n10.116.60.58   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.73 ]
+name: n10.250.190.73   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.34 ]
+name: e10.116.28.34   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.28.58 ]
+name: h10.116.28.58   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.157.4 ]
+name: n10.250.157.4   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.190.74 ]
+name: n10.250.190.74   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.42 ]
+name: n10.116.60.42   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.50 ]
+name: e10.116.28.50   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.54 ]
+name: e10.116.28.54   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.59.226 ]
+name: h10.116.59.226   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ spoke-hua ]
+name: spoke-hua   ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.49.5 ]
+name: n10.116.49.5   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.2 ]
+name: e10.116.28.2   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.34.9 ]
+name: h10.116.34.9   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.6 ]
+name: e10.116.28.6   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ h10.116.60.126 ]
+name: h10.116.60.126   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ v192.168.201.33 ]
+name: v192.168.201.33   ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ Lo-1 ]
+name: Lo-1   management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.175.80 255.255.255.255   status: up    type: loopback   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    
+== [ Lo-2 ]
+name: Lo-2   management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.175.64 255.255.255.255   status: up    type: loopback   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    
+== [ n10.116.34.156 ]
+name: n10.116.34.156   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.250.175.6 ]
+name: n10.250.175.6   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.62 ]
+name: e10.116.28.62   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.66 ]
+name: e10.116.28.66   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.28.126 ]
+name: n10.116.28.126   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.70 ]
+name: e10.116.28.70   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.74 ]
+name: e10.116.28.74   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.82 ]
+name: e10.116.28.82   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.34.157 ]
+name: n10.116.34.157   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.49.4 ]
+name: n10.116.49.4   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.26 ]
+name: n10.116.60.26   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.28.86 ]
+name: n10.116.28.86   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.60.38 ]
+name: n10.116.60.38   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.28.90 ]
+name: n10.116.28.90   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ n10.116.28.78 ]
+name: n10.116.28.78   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.94 ]
+name: e10.116.28.94   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.98 ]
+name: e10.116.28.98   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.102 ]
+name: e10.116.28.102   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.106 ]
+name: e10.116.28.106   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.110 ]
+name: e10.116.28.110   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.114 ]
+name: e10.116.28.114   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.118 ]
+name: e10.116.28.118   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ e10.116.28.122 ]
+name: e10.116.28.122   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+
+o22rrlabsecgw05 (LTE_Traffic) # 

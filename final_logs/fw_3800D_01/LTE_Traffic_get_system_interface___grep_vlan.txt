@@ -1,0 +1,17 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (vdom) # current vf=LTE_Traffic:1
+
+o22rrlabsecgw03 (LTE_Traffic) # == [ vlan123_m38_pe1 ]
+name: vlan123_m38_pe1   mode: static    ip: 192.168.201.10 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan124_m44_pe1 ]
+name: vlan124_m44_pe1   mode: static    ip: 192.168.201.18 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan125_m42_pe1 ]
+name: vlan125_m42_pe1   mode: static    ip: 192.168.201.26 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan126_ha_pe1 ]
+name: vlan126_ha_pe1   mode: static    ip: 192.168.201.22 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+
+o22rrlabsecgw03 (LTE_Traffic) # 

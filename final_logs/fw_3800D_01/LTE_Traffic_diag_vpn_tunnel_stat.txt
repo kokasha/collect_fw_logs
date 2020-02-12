@@ -1,0 +1,10 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (vdom) # current vf=LTE_Traffic:1
+
+o22rrlabsecgw03 (LTE_Traffic) # dev=7 attached=5 tunnel=0 proxyid=15 sa=15 conc=0 up=15 crypto_work=0
+
+o22rrlabsecgw03 (LTE_Traffic) # 

@@ -1,0 +1,6 @@
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw05 (LTE_Traffic) # dev=131 attached=0 tunnel=0 proxyid=179 sa=124 conc=0 up=102 crypto_work=0
+
+o22rrlabsecgw05 (LTE_Traffic) # 

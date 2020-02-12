@@ -1,0 +1,119 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (vdom) # current vf=LTE_Traffic:1
+
+o22rrlabsecgw03 (LTE_Traffic) # 
+vd: LTE_Traffic/1
+name: dvpn-nsn_2
+version: 2
+interface: vlan125_m42_pe1 56
+addr: 192.168.201.33:500 -> 10.250.175.14:500
+created: 609214s ago
+peer-id: O = Nokia Solutions and Networks, CN = EA171061854.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 1/8  established: 1/8  time: 0/7/60 ms
+IPsec SA  created: 3/171  established: 3/171  time: 0/17/3010 ms
+
+  id/spi: 2285 21e4a4f158c2e8ca/5437706117ad4bc0
+  direction: responder
+  status: established 5379-5379s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 14bceaf307f1b487-ef64f899237a67b2
+  SK_er: fda405d33a940b6e-1edba9b5e2ab5e5e
+  SK_ai: dc3df5c5e44b748a-eb0f5a8aa52fe2df-c93c3636
+  SK_ar: 630f84b1a7e9eca9-4fdfa13d0685949d-5743ef9a
+  lifetime/rekey: 90000/84350
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/1
+name: dvpn-e2_0
+version: 2
+interface: vlan125_m42_pe1 56
+addr: 192.168.201.34:500 -> 10.250.175.38:500
+created: 90470s ago
+peer-id: C = AU, O = Ericsson, OU = senm, CN = OCSColdLab04-NSW-O-22RR-1002-L21-E-S123
+peer-auth: yes
+IKE SA  created: 1/10  established: 1/10  time: 20/1523/9030 ms
+IPsec SA  created: 3/91  established: 3/91  time: 0/0/20 ms
+
+  id/spi: 9 6a8dcabf536d3e6a/d83c29bdcd94af72
+  direction: responder
+  status: established 1051-1051s ago = 20ms
+  proposal: aes-128-sha1
+  SK_ei: aeec86b753b91c5b-4bf8e2bfd2a50f2e
+  SK_er: f42cb79fc034c853-469969aefb3a4e01
+  SK_ai: 7b7a2a1136276b6c-5833d97d5d8716e4-a47f3663
+  SK_ar: 146d7289fcbfeab3-609af20704f84473-fbc63109
+  lifetime/rekey: 90000/88678
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/1
+name: dvpn-e2_1
+version: 2
+interface: vlan125_m42_pe1 56
+addr: 192.168.201.34:500 -> 10.250.175.42:500
+created: 87879s ago
+peer-id: C = AU, O = Ericsson, OU = senm, CN = OCSColdLab04-NSW-O-22RR-1001-NR35-E-S123
+peer-auth: yes
+IKE SA  created: 1/7  established: 1/7  time: 20/1307/9020 ms
+IPsec SA  created: 3/68  established: 3/68  time: 0/1/50 ms
+
+  id/spi: 8 919b09c495b2e90e/8c86e5f9a5c47d7e
+  direction: responder
+  status: established 1052-1052s ago = 20ms
+  proposal: aes-128-sha1
+  SK_ei: e027bfbd15bc61ff-51e28475d01dfeac
+  SK_er: e45dd12834356eed-3b028ec38a3d0949
+  SK_ai: 0804b21b64fe1445-0b86489f20c71c5c-3d012f23
+  SK_ar: 2e715de6a0d84bfb-ebc7ebfe1a922da6-cf58513a
+  lifetime/rekey: 90000/88677
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/1
+name: dvpn-nsn_1
+version: 2
+interface: vlan125_m42_pe1 56
+addr: 192.168.201.33:500 -> 10.250.175.10:500
+created: 17735s ago
+peer-id: O = Nokia Solutions and Networks, CN = L1163509499.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 50/50/50 ms
+IPsec SA  created: 3/8  established: 3/8  time: 0/0/0 ms
+
+  id/spi: 2280 df501d265c966322/0954f0af09e2d51f
+  direction: responder
+  status: established 17735-17735s ago = 50ms
+  proposal: aes-128-sha1
+  SK_ei: da4b6b2172c9983c-9bfca80ff9cf5454
+  SK_er: 83c1f05eb4a498fa-daa39f7c8e4b56c0
+  SK_ai: f8bf0cfcddb68ab9-4c4077df5a300bc9-300e0c1a
+  SK_ar: 670dd2aed5fbf543-1544931c1f0e50ba-b44de1bb
+  lifetime/rekey: 90000/71994
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/1
+name: dvpn-nsn_0
+version: 2
+interface: vlan125_m42_pe1 56
+addr: 192.168.201.33:500 -> 10.250.175.18:500
+created: 15508s ago
+peer-id: O = Nokia Solutions and Networks, CN = L1183105037.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 4020/4020/4020 ms
+IPsec SA  created: 3/9  established: 3/9  time: 0/0/0 ms
+
+  id/spi: 2284 3f741b960f8c8588/134ebe7162a4bcb4
+  direction: responder
+  status: established 15508-15504s ago = 4020ms
+  proposal: aes-128-sha1
+  SK_ei: c797a3aed01c8b76-baf799d5d3efae42
+  SK_er: 695089bd526af1fd-b5b3b7319b4d5173
+  SK_ai: 011329a24eb7423b-406f701d971d475b-e10b9a0a
+  SK_ar: e3652230b96985b6-80f0a77106f408de-37212774
+  lifetime/rekey: 90000/74225
+  DPD sent/recv: 00000000/00000000
+
+o22rrlabsecgw03 (LTE_Traffic) # 

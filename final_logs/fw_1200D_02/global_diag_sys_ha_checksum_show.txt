@@ -1,0 +1,15 @@
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (global) # is_manage_master()=0, is_root_master()=0
+debugzone
+global: 73 22 45 40 96 6c dc c5 e2 9f 36 1e 6a bf 35 e4 
+root: 39 14 a2 48 76 98 9e b2 81 99 da 37 39 ac 5a 66 
+LTE_Traffic: 9e c6 9e 3f f2 4f b8 86 57 87 7f 66 87 b7 e7 4b 
+all: 9b 05 59 cf b6 dc e8 7d 16 aa ce 5a 1e 86 f2 cf 
+
+checksum
+global: 73 22 45 40 96 6c dc c5 e2 9f 36 1e 6a bf 35 e4 
+root: 39 14 a2 48 76 98 9e b2 81 99 da 37 39 ac 5a 66 
+LTE_Traffic: 9e c6 9e 3f f2 4f b8 86 57 87 7f 66 87 b7 e7 4b 
+all: 9b 05 59 cf b6 dc e8 7d 16 aa ce 5a 1e 86 f2 cf 
+
+o22rrlabsecgw06 (global) # 

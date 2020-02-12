@@ -1,0 +1,2470 @@
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw05 (LTE_Traffic) # 
+vd: LTE_Traffic/2
+name: h10.116.34.4
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.4:500
+created: 7193226s ago
+peer-id: CN = 210305725210HA001291.huawei.com, C = AU, O = Optus
+peer-auth: yes
+IKE SA  created: 1/90  established: 1/90  time: 50/70/810 ms
+IPsec SA  created: 1/1068  established: 1/1068  time: 0/22/2020 ms
+
+  id/spi: 10250701 7e0bc73b51f2365d/27b92de157eab1cb
+  direction: responder
+  status: established 17095-17095s ago = 50ms
+  proposal: aes-128-sha1
+  key: c4d8caff50ec5b60-1f3dbf605d738f27
+  lifetime/rekey: 86400/69034
+  DPD sent/recv: 00008489/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.75
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.75:500
+created: 7193163s ago
+peer-id: CN = 210305488610FB018180.huawei.com, C = AU, O = Optus
+peer-auth: yes
+IKE SA  created: 1/91  established: 1/91  time: 70/179/5010 ms
+IPsec SA  created: 1/711  established: 1/711  time: 0/30/5040 ms
+
+  id/spi: 10259493 a72c81551ff8e353/f8c384e4033cd858
+  direction: responder
+  status: established 11785-11785s ago = 130ms
+  proposal: aes-128-sha1
+  key: 9cb0605a558ebab3-23b13c647d9cde8f
+  lifetime/rekey: 86400/74344
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.76
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.76:500
+created: 7192915s ago
+peer-id: CN = 210305488610FB018198.huawei.com, C = AU, O = Optus
+peer-auth: yes
+IKE SA  created: 4/219  established: 4/219  time: 70/163/5110 ms
+IPsec SA  created: 1/1160  established: 1/1160  time: 0/19/2020 ms
+
+  id/spi: 10270402 50adbe664bc656ce/23114071b2959afd
+  direction: responder
+  status: established 5149-5149s ago = 90ms
+  proposal: aes-128-sha1
+  key: ccc192939e1b62e5-f4f1670f0b151cf0
+  lifetime/rekey: 86400/80980
+  DPD sent/recv: 00002b27/4499d25a
+
+  id/spi: 10237761 3c2231a05188bb7b/cf0d65b9e1c6360d
+  direction: responder
+  status: established 24873-24873s ago = 120ms
+  proposal: aes-128-sha1
+  key: 7a1c4be1b4545302-5164368eafbf9243
+  lifetime/rekey: 86400/61256
+  DPD sent/recv: 00002b1d/41e771a5
+
+  id/spi: 10180915 cd125267bcc93620/31a8d29212584986
+  direction: responder
+  status: established 59299-59299s ago = 140ms
+  proposal: aes-128-sha1
+  key: 9c2c053697b70507-1e5ed4573e93e9c7
+  lifetime/rekey: 86400/26830
+  DPD sent/recv: 00002aeb/4b743247
+
+  id/spi: 10141410 a5b05ab9722dab0f/0c182d7072a7fc0c
+  direction: responder
+  status: established 83214-83214s ago = 80ms
+  proposal: aes-128-sha1
+  key: b378be0e625662a8-a23d0b1166d84684
+  lifetime/rekey: 86400/2915
+  DPD sent/recv: 00002a80/7a0e8311
+
+vd: LTE_Traffic/2
+name: h10.250.190.77
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.77:500
+created: 7193226s ago
+peer-id: CN = 210305488610FB019300
+peer-auth: yes
+IKE SA  created: 1/92  established: 1/92  time: 70/93/140 ms
+IPsec SA  created: 1/907  established: 1/905  time: 0/16/2020 ms
+
+  id/spi: 10273522 970e9abd1a3e055a/61a206b61c3f9e24
+  direction: responder
+  status: established 3249-3249s ago = 80ms
+  proposal: aes-128-sha1
+  key: 0fc812e8769a2e0f-14b749fd579b4538
+  lifetime/rekey: 86400/82880
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.78
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.78:500
+created: 7193226s ago
+peer-id: CN = 210305488610FB019295
+peer-auth: yes
+IKE SA  created: 1/93  established: 1/92  time: 70/148/5100 ms
+IPsec SA  created: 1/1066  established: 1/1066  time: 0/27/5010 ms
+
+  id/spi: 10257847 74f6a42955d88157/0519b824afdc353c
+  direction: responder
+  status: established 12773-12773s ago = 120ms
+  proposal: aes-128-sha1
+  key: 2fe84aafae8841e4-6f34bed6b3ac53ed
+  lifetime/rekey: 86400/73356
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.34.9
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.9:500
+created: 4949249s ago
+peer-id: CN = 210305488610G5008597.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/89  established: 1/84  time: 0/3/120 ms
+IPsec SA  created: 1/982  established: 1/981  time: 0/0/0 ms
+
+  id/spi: 10267236 f6842934d184b998/f3cd0b1fdc33a976
+  direction: responder
+  status: established 7101-7101s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: c9bc4e686a73b269-558b18f3243c52e2
+  SK_er: 44ec64b6b07e8227-0c243b3dfe404919
+  SK_ai: a4cc533c472a7130-4a8225cb2ae62545-633487a8
+  SK_ar: a5cb91e6dfe52fe0-f91f9a802918bf3e-a7960d93
+  lifetime/rekey: 90000/82628
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.49.7
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.7:500
+created: 4949140s ago
+peer-id: CN = 210305415310C9000339.huawei.com, C = AU, O = Optus
+peer-auth: yes
+IKE SA  created: 1/85  established: 1/85  time: 0/8/200 ms
+IPsec SA  created: 1/981  established: 1/981  time: 0/0/200 ms
+
+  id/spi: 10270199 38bfa71d713c5969/c19bae5625a5ec3d
+  direction: responder
+  status: established 5261-5261s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: d5776bf5fbacdbc4-0d673dd98e37c477
+  SK_er: 7744531c320ed9fe-71110b8bfa0730c2
+  SK_ai: 6d6827d5a4fa7532-2891fb5afb917e8a-b976f473
+  SK_ar: 36d5a98bf918762a-aa80a618dfe2b257-2a027a9e
+  lifetime/rekey: 90000/84468
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.9
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.9:500
+created: 4926491s ago
+peer-id: CN = 210305488610EA010899
+peer-auth: yes
+IKE SA  created: 1/85  established: 1/84  time: 0/110/9100 ms
+IPsec SA  created: 1/977  established: 1/976  time: 0/0/0 ms
+
+  id/spi: 10267336 6a129f1bcbb8dc17/ad22a3b3028c16c7
+  direction: responder
+  status: established 7051-7051s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 638fdfe02f975c81-22e6fe31ffe728a1
+  SK_er: 0f258cefdbd53d3a-bd063a17617de9dc
+  SK_ai: e24938b5b08a97ed-17c3a6ec5e0d40e4-7d2dee59
+  SK_ar: ff69d34989a7bcc3-ec472078e3ea4b4f-baa6e2c3
+  lifetime/rekey: 90000/82678
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.157.7
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.157.7:500
+created: 4926464s ago
+peer-id: CN = 210305488510E2002140.huawei.com, C = AU, O = Optus
+peer-auth: yes
+IKE SA  created: 1/23406  established: 1/23405  time: 70/169/12120 ms
+IPsec SA  created: 1/902  established: 1/902  time: 0/34/4780 ms
+
+  id/spi: 10278816 661ad09f8826c27b/c903b3226bbc47dc
+  direction: responder
+  status: established 52-52s ago = 80ms
+  proposal: aes-128-sha1
+  key: 0089c854c124c938-76b00335d6b4542d
+  lifetime/rekey: 300/227
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.80
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.80:500
+created: 3549113s ago
+peer-id: CN = 031BBD10G5000049.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/62  established: 1/62  time: 0/55/3110 ms
+IPsec SA  created: 1/706  established: 1/706  time: 0/4/3110 ms
+
+  id/spi: 10264641 ff89fc68b9fbef7f/7109d67992602f30
+  direction: responder
+  status: established 8669-8669s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: a4a37ebe4f935257-2478d81844545935
+  SK_er: 074373dcdaee6516-efe9d9b021b458ff
+  SK_ai: 09241698540908b5-5ac7cd3066859271-4d6e2991
+  SK_ar: 86ae427b61e39ddc-4bbfa522157b2f5b-2d155574
+  lifetime/rekey: 90000/81060
+  DPD sent/recv: 00042b66/00042b66
+
+vd: LTE_Traffic/2
+name: h10.116.34.5
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.5:500
+created: 3549112s ago
+peer-id: CN = 210305488610G5006478.huawei.com
+peer-auth: yes
+IKE SA  created: 1/62  established: 1/60  time: 70/88/170 ms
+IPsec SA  created: 1/585  established: 1/585  time: 0/7/2010 ms
+
+  id/spi: 10257331 1e2708e8f5df5c0f/2516d7ad10138510
+  direction: responder
+  status: established 13099-13099s ago = 90ms
+  proposal: aes-128-sha1
+  key: 9f5e58b6109264dd-d828c690027e9a30
+  lifetime/rekey: 86400/73030
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.85
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.85:500
+created: 3549079s ago
+peer-id: CN = 2102312BYV10J3000041.huawei.com
+peer-auth: yes
+IKE SA  created: 1/62  established: 1/60  time: 90/109/160 ms
+IPsec SA  created: 1/1180  established: 1/1178  time: 0/17/2020 ms
+
+  id/spi: 10250753 ff80162734581fab/c1672f726cd6a393
+  direction: responder
+  status: established 17070-17070s ago = 100ms
+  proposal: aes-128-sha1
+  key: 1360bfad9f90d395-ecd68bb2dc446ad1
+  lifetime/rekey: 86400/69059
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.81
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.81:500
+created: 3549050s ago
+peer-id: CN = 031BBD10G5000050.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/68  established: 1/67  time: 70/94/190 ms
+IPsec SA  created: 1/715  established: 1/715  time: 0/23/2020 ms
+
+  id/spi: 10192105 b79b97dc4135795a/17fd99f134cf8de8
+  direction: responder
+  status: established 52507-52507s ago = 90ms
+  proposal: aes-128-sha1
+  key: f411ddd993151708-52cf98bd8a0a3b6e
+  lifetime/rekey: 86400/33622
+  DPD sent/recv: 00015177/24f46e85
+
+vd: LTE_Traffic/2
+name: h10.250.190.87
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.87:500
+created: 3549043s ago
+peer-id: CN = 210305488610G7006135.huawei.com
+peer-auth: yes
+IKE SA  created: 1/62  established: 1/61  time: 70/85/240 ms
+IPsec SA  created: 1/683  established: 1/683  time: 0/20/2020 ms
+
+  id/spi: 10277277 9fc007897ee823f3/a74eb627d01d106d
+  direction: responder
+  status: established 980-980s ago = 80ms
+  proposal: aes-128-sha1
+  key: fe7fa5b99f6eae8e-b32f864482116da7
+  lifetime/rekey: 86400/85149
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.82
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.82:500
+created: 3548864s ago
+peer-id: CN = 031BBD10G5000034.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/65  established: 1/64  time: 70/119/610 ms
+IPsec SA  created: 1/710  established: 1/708  time: 0/24/2020 ms
+
+  id/spi: 10238325 a36d12b12614d968/bc25e85cd698b10f
+  direction: responder
+  status: established 24540-24540s ago = 80ms
+  proposal: aes-128-sha1
+  key: f99da71b5c156f82-cb088f4cae974b02
+  lifetime/rekey: 86400/61589
+  DPD sent/recv: 000132aa/348e9230
+
+vd: LTE_Traffic/2
+name: h10.116.59.226
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.59.226:500
+created: 3216043s ago
+peer-id: CN = 210305415310DA000261.huawei.com, C = AU, O = Huawei
+peer-auth: yes
+IKE SA  created: 1/56  established: 1/56  time: 0/392/21240 ms
+IPsec SA  created: 4/2552  established: 4/2552  time: 0/8/21240 ms
+
+  id/spi: 10269687 1e10406c825d078c/01013fc3598a48cf
+  direction: responder
+  status: established 5572-5572s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 9f3f7ed89f19eb5e-0c085e684343d41b
+  SK_er: 49efe2d9a1988951-2666876862e057b6
+  SK_ai: 46f98c90381f4b0e-d4263936e5adfda2-e476e1ef
+  SK_ar: f5d2e62d098a7497-90d3cdebbc333c90-299c2fcb
+  lifetime/rekey: 90000/84157
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.60.54
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.54:500
+created: 3216038s ago
+peer-id: CN = 210305725210H7001705.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 3/110  established: 3/109  time: 40/176/5050 ms
+IPsec SA  created: 1/678  established: 1/678  time: 0/12/2010 ms
+
+  id/spi: 10267895 cd000c5f49152d0c/fea94e253122d3ab
+  direction: responder
+  status: established 6703-6703s ago = 40ms
+  proposal: aes-128-sha1
+  key: b8b8e15c402ee752-dbd5a611d77a0b72
+  lifetime/rekey: 86400/79426
+  DPD sent/recv: 00002f5b/22776c6c
+
+  id/spi: 10204118 7883a77cfaf4d866/ca5b12f51b2406d9
+  direction: responder
+  status: established 45220-45220s ago = 50ms
+  proposal: aes-128-sha1
+  key: 1621cb6effb0587d-c6e6c22e359a1d63
+  lifetime/rekey: 86400/40909
+  DPD sent/recv: 00002f4e/58610cbe
+
+  id/spi: 10150895 2e5a48ff73f78425/3609d5238b7cf6ae
+  direction: responder
+  status: established 77475-77475s ago = 50ms
+  proposal: aes-128-sha1
+  key: 72a517a4c3d1a1c5-42348a7cdde7059a
+  lifetime/rekey: 86400/8654
+  DPD sent/recv: 00002ec7/297caf00
+
+vd: LTE_Traffic/2
+name: h10.116.59.250
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.59.250:500
+created: 3216038s ago
+peer-id: CN = 210305488510E6011750.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/55  established: 1/54  time: 70/199/3100 ms
+IPsec SA  created: 1/519  established: 1/519  time: 0/68/11440 ms
+
+  id/spi: 10256514 92f1c57e05856e69/970216147a7480da
+  direction: responder
+  status: established 13582-13582s ago = 80ms
+  proposal: aes-128-sha1
+  key: c07d180b4c5d06ac-e411900abf470e8e
+  lifetime/rekey: 86400/72547
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.60.50
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.50:500
+created: 3216038s ago
+peer-id: CN = 210305725210J1002349.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 2/109  established: 2/108  time: 40/99/5020 ms
+IPsec SA  created: 2/679  established: 2/679  time: 0/29/2020 ms
+
+  id/spi: 10278810 b912d5f1baa03b9b/ed4ead67d6c6ec3a
+  direction: responder
+  status: established 71-71s ago = 40ms
+  proposal: aes-128-sha1
+  key: 564d160bcddc7bc2-292a851a3f0daeef
+  lifetime/rekey: 86400/86058
+  DPD sent/recv: 000091e0/00000000
+
+  id/spi: 10207804 50a1c18855e09b51/3575a8ecbf27e14c
+  direction: responder
+  status: established 43006-43005s ago = 50ms
+  proposal: aes-128-sha1
+  key: 8d94b9e73e1f304a-249524e27df8fcab
+  lifetime/rekey: 86400/43124
+  DPD sent/recv: 000091df/31ba859b
+
+vd: LTE_Traffic/2
+name: h10.116.59.246
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.59.246:500
+created: 3216032s ago
+peer-id: CN = 210305725210J6004009.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/56  established: 1/56  time: 0/81/3050 ms
+IPsec SA  created: 1/638  established: 1/638  time: 0/0/40 ms
+
+  id/spi: 10278506 00df37632d10bd36/b925fc5db60a94a4
+  direction: responder
+  status: established 245-245s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 2076bb891804887c-f69a9482b42b18ea
+  SK_er: e399c239ee21eacd-106a73da34cc5382
+  SK_ai: 713d5108d2687ca6-d14b3bf7eaf8e9c4-ba7bf996
+  SK_ar: 422e64ea457cf686-994265a18f4f66ce-4ddd9bef
+  lifetime/rekey: 90000/89484
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.60.82
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.82:500
+created: 3216023s ago
+peer-id: CN = 210305725210H7002072.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/25398  established: 1/25398  time: 0/0/40 ms
+IPsec SA  created: 1/12829  established: 1/12829  time: 0/0/40 ms
+
+  id/spi: 10278710 eb1a7c992a1cc57b/ba5402aa9333003e
+  direction: responder
+  status: established 119-119s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 44a9e34025252093-b12b1f1acf4ad7b0
+  SK_er: cc4e765a3a9b7936-bd714602fd7b9c2c
+  SK_ai: 78377ff07e7328c0-8adc1bbcfa139541-06d62e03
+  SK_ar: 47bb74111b164395-f3f3d70ed72a80f9-d8e9320c
+  lifetime/rekey: 90000/89610
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.250.190.4
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.4:500
+created: 2852893s ago
+peer-id: CN = L6141519410.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/106  established: 2/69  time: 0/613/21090 ms
+IPsec SA  created: 2/828  established: 2/790  time: 0/53/21090 ms
+
+  id/spi: 10264948 6382addde15e5ae9/a7b8b0f145fb7167
+  direction: responder
+  status: established 8500-8500s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 28d0a1df85637993-99891b810d75cf32
+  SK_er: ab129c9f9efe1ea8-ec1976980a946d46
+  SK_ai: 9b1f562ed8746c04-df40c9efeb0717f5-3b6bff0c
+  SK_ar: 1a94060fec7413b3-be629f9fc1c215dd-ed8dd1ca
+  lifetime/rekey: 90000/81229
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10264898 228858a82ef0cc52/6fde22eaad728614
+  direction: responder
+  status: established 8522-8522s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: aa6231d0b5914e14-f3546a5fa18de2fc
+  SK_er: 6c25e440fe98af26-bb6f7f23b3e0eae3
+  SK_ai: 9102ac1c1642ee3b-e90c63c981a2445b-ef768d88
+  SK_ar: 4965c3e7e58550d8-c1f08eaccfdd18ec-d535d406
+  lifetime/rekey: 90000/81207
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.12
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.12:500
+created: 2251403s ago
+peer-id: CN = 210305415310D1000460.huawei.com, C = AU, O = Optus
+peer-auth: yes
+IKE SA  created: 1/17810  established: 1/17810  time: 0/0/12260 ms
+IPsec SA  created: 1/8981  established: 1/8981  time: 0/1/12260 ms
+
+  id/spi: 10278813 9b020302653afa37/04765a18a2574f24
+  direction: responder
+  status: established 62-62s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 2d169127630a2e43-3c2f5573b3cb86cc
+  SK_er: c886f7269d765c54-adc1cd3c7074bbd2
+  SK_ai: 6698b299c42a0195-076208329c7833af-c0aa6582
+  SK_ar: 8e1ddd7688a17d25-bfe039dc9b977b24-bd33989f
+  lifetime/rekey: 90000/89667
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.250.190.10
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.10:500
+created: 2251153s ago
+peer-id: CN = 210305488510F3020667.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 2/91  established: 2/90  time: 70/423/4070 ms
+IPsec SA  created: 1/488  established: 1/488  time: 0/53/4930 ms
+
+  id/spi: 10233120 38f635a0bb70c330/218e1cf25e66defd
+  direction: responder
+  status: established 27679-27679s ago = 80ms
+  proposal: aes-128-sha1
+  key: 1093bdfbf4ab7f23-b4503c7023e4dbfa
+  lifetime/rekey: 86400/58450
+  DPD sent/recv: 00001c54/5fc1a8ec
+
+  id/spi: 10210878 8c8da302e8ea0857/5f525370c6beec89
+  direction: responder
+  status: established 41137-41137s ago = 140ms
+  proposal: aes-128-sha1
+  key: 71b8c7be9a1ecdf4-fb2824e09e68752b
+  lifetime/rekey: 86400/44992
+  DPD sent/recv: 00001c35/4a3819ca
+
+vd: LTE_Traffic/2
+name: h10.250.190.11
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.11:500
+created: 1306064s ago
+peer-id: CN = 210305725210J1002362.huawei.com, C = AU, O = Optus
+peer-auth: yes
+IKE SA  created: 1/22  established: 1/22  time: 40/60/100 ms
+IPsec SA  created: 1/258  established: 1/258  time: 0/21/2510 ms
+
+  id/spi: 10230861 9dfc35cbe3320961/5551b8bd617623cd
+  direction: responder
+  status: established 29033-29033s ago = 50ms
+  proposal: aes-128-sha1
+  key: 0fdb8ba5eb3f67bd-6e7970345d6328ec
+  lifetime/rekey: 86400/57096
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.2
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.2:500
+created: 1052335s ago
+peer-id: CN = L1141409815.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/26  established: 2/26  time: 0/813/21090 ms
+IPsec SA  created: 2/292  established: 2/292  time: 0/72/21090 ms
+
+  id/spi: 10250597 888709b453ab32da/989069b606798397
+  direction: responder
+  status: established 17155-17155s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: b725ba56c68b89d9-05fd0272f1700876
+  SK_er: 3f4dcd3e8a9ab5d3-b9e78839abad22f7
+  SK_ai: 82aae93ad218f0b5-815932d484245d92-886c34b0
+  SK_ar: c9613e3c323ef91b-1a2c585eebc1eb80-c11d384e
+  lifetime/rekey: 90000/72574
+  DPD sent/recv: 000005b4/000005b4
+
+  id/spi: 10250594 7fbbb0be51d87eb8/ae337296af45fbd7
+  direction: responder
+  status: established 17164-17164s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: d681cfe71fd0a152-5aa7cca27c497cea
+  SK_er: 55c30a7cf1e52592-015deb45ed1069eb
+  SK_ai: 97f93a2112d26124-0d75c0b268c2c079-fadafeda
+  SK_ar: 73d6d6928d38b36b-85b8cb121fe0931e-3df53226
+  lifetime/rekey: 90000/72565
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.56.45
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.56.45:500
+created: 798825s ago
+peer-id: CN = L6134201456.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/20  established: 2/20  time: 0/1056/21090 ms
+IPsec SA  created: 1/78  established: 1/78  time: 0/270/21090 ms
+
+  id/spi: 10241888 01c2bf23899d8017/1795275d6d27bb24
+  direction: responder
+  status: established 22392-22392s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 32f91c7b63df4a3c-dc046e84a200f7e5
+  SK_er: 01f1c314a4892c8b-87e29691980ef0b3
+  SK_ai: 345c9dcef81d35e2-8a3102b031c5ee48-b85b396a
+  SK_ar: 65003304fe3c6315-2f88d3380a846a40-b741313c
+  lifetime/rekey: 90000/67337
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10241807 a5856853fa584154/8f2bcdeb065ea9ed
+  direction: responder
+  status: established 22443-22443s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 6a0769c5b723882c-1bafc8e2da871e1b
+  SK_er: 312951660d876b5c-44499aa543af2d3b
+  SK_ai: 86283f5c8d877c5d-38db30c5202c5eec-e6851adf
+  SK_ar: 07d887ad097fc269-d99be193e97ea422-33f6201e
+  lifetime/rekey: 90000/67286
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.250.190.70
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.70:500
+created: 785377s ago
+peer-id: O = Nokia Solutions and Networks, CN = EA172163823.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/20  established: 2/20  time: 0/156/3070 ms
+IPsec SA  created: 2/218  established: 2/218  time: 0/14/3070 ms
+
+  id/spi: 10264075 bc3c1046ce16abd5/2e428c4c5e92f6de
+  direction: responder
+  status: established 9017-9017s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 03412e048ec20d3e-e6a933833af18628
+  SK_er: fdd83f493c274f64-2625a63ae3a0748c
+  SK_ai: fa0c61014e094813-c1b335114673db6b-0cae710f
+  SK_ar: 5fbd3295adebf956-d30a67efec2e118e-6877b656
+  lifetime/rekey: 90000/80712
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10264074 7e07aba1d676392b/8bd0f2b9c419e2af
+  direction: responder
+  status: established 9023-9023s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 597f8ed4c8b7930d-9c230bcf66764e54
+  SK_er: 2f2eef454244b9e2-9c57656f165afd12
+  SK_ai: e566a6d16f4068ff-4573b269c56b30d8-58ae4746
+  SK_ar: d631f9fc7ecd9fa4-49c1de8dc6eef918-329cc0c9
+  lifetime/rekey: 90000/80706
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.60.126
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.126:500
+created: 776677s ago
+peer-id: CN = 210305725210J6004007.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/13  established: 1/13  time: 0/2/30 ms
+IPsec SA  created: 1/154  established: 1/154  time: 0/0/0 ms
+
+  id/spi: 10199397 a67e8cbecec034b0/081b3eecf0757304
+  direction: responder
+  status: established 48099-48099s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 5940359e9f21a49e-666915b0513efe13
+  SK_er: 94b0541eb2e48857-6323900aca653c14
+  SK_ai: c8052145cdc694de-09aa71b9c6399151-e215f8e8
+  SK_ar: 7e475cfcd428dc5f-f8aa446720decaad-3d59b69b
+  lifetime/rekey: 90000/41630
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.28.78
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.78:500
+created: 719214s ago
+peer-id: O = Nokia Solutions and Networks, CN = L1193209463.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/18  established: 2/18  time: 0/1168/21040 ms
+IPsec SA  created: 2/200  established: 2/200  time: 0/105/21040 ms
+
+  id/spi: 10230808 234e421cc69a78b0/e6247f8c48300a34
+  direction: responder
+  status: established 29057-29057s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: a7a8219f7aab0049-eac8947fd5b35570
+  SK_er: 3e119bf755e27b5c-fd0377f1ff372010
+  SK_ai: 82c76f9975fe5acd-61df71f4fbc39050-ae49841c
+  SK_ar: 317258dee2c61cb9-297e36ef359a1e48-1539a9ee
+  lifetime/rekey: 90000/60672
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10230807 51dbaf0d81500f36/70cddf4aa26d002a
+  direction: responder
+  status: established 29059-29059s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: e74b5a5d0ee0a962-c7803c44013ae3a8
+  SK_er: d9550711eeed1634-b9653a7761d99df8
+  SK_ai: 7cba98cc6eba72af-8e9d485f7689c54e-19b58494
+  SK_ar: 7239ef0f434fb83a-0162a839131e1a43-bda1a7c3
+  lifetime/rekey: 90000/60670
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.56.44
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.56.44:500
+created: 630517s ago
+peer-id: CN = L6133404639.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/16  established: 2/16  time: 0/1321/21100 ms
+IPsec SA  created: 1/63  established: 1/62  time: 0/340/21100 ms
+
+  id/spi: 10234873 a4777f6c3e6e8ccb/811381995261e00a
+  direction: responder
+  status: established 26625-26625s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 27704a074aafa0b7-8ae0f845f2d39b3f
+  SK_er: 7c3d50d013b532dd-7f09ff54151df41b
+  SK_ai: 22964565423ffc69-b07b8cc9d9e10045-0b6ab81e
+  SK_ar: e1a4327ff75c13dd-ce867aac8d15e534-2809df1b
+  lifetime/rekey: 90000/63104
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10234872 08d5bc2d625639d6/75ed050f8053163a
+  direction: responder
+  status: established 26627-26627s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 0001375200f1b39d-5fccb48096727173
+  SK_er: 33c3abc8e2ecfc3f-c635c17073e17287
+  SK_ai: 6d2f3a03fdd54b6a-86485a3b4b5ec998-11073398
+  SK_ar: abd4a3a0136790aa-34b4d95839bca89c-08d86373
+  lifetime/rekey: 90000/63102
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.18
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.18:500
+created: 628623s ago
+peer-id: O = Nokia Solutions and Networks, CN = L1163506024.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/16  established: 2/16  time: 0/1320/21090 ms
+IPsec SA  created: 2/174  established: 2/174  time: 0/121/21090 ms
+
+  id/spi: 10238015 b1291f19db1daab8/d7abf10ea8c00f75
+  direction: responder
+  status: established 24736-24736s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 48b6ffcaf3e17e90-2b16d427a2b43dcc
+  SK_er: 3f711deb1bf6b539-f240816fe2f6926a
+  SK_ai: de7dc8051d6f0e12-8c9dad43a5415734-90121745
+  SK_ar: 3de72c83fa18dd11-fa30328d3fcb271f-21e2ec9e
+  lifetime/rekey: 90000/64993
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10237967 4f8891e0bccbf802/0748a552fbee00f5
+  direction: responder
+  status: established 24743-24743s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 5a9801d3d655a298-419ff9fa54ed0dad
+  SK_er: 6b4374fd618092f6-725b940cbec2b3e6
+  SK_ai: 943ac254a8f2a740-b42bd9fd87ab4b3e-3d434c45
+  SK_ar: 89e7f4c498632ecb-280863c6bb53764b-210deb22
+  lifetime/rekey: 90000/64986
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.90
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.90:500
+created: 623618s ago
+peer-id: O = Nokia Solutions and Networks, CN = EA171061977.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/16  established: 2/16  time: 0/201/3070 ms
+IPsec SA  created: 2/174  established: 2/174  time: 0/17/3070 ms
+
+  id/spi: 10246334 2604d13bd788cf36/764cb471b3c75d2a
+  direction: responder
+  status: established 19729-19729s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 8f35ca07b018242e-ce79deef79e87446
+  SK_er: 001b6fbef64f79ca-a5e1c48988383c76
+  SK_ai: 0857331f07659f30-edf4d64254ae1efc-70cffa7c
+  SK_ar: 7b0d27115e320e84-a5f09b21ed7b1d3b-eef5e18e
+  lifetime/rekey: 90000/70000
+  DPD sent/recv: 000006e5/000006e5
+
+  id/spi: 10246281 c1d7c4bbe071544b/f4e88fecde8015f1
+  direction: responder
+  status: established 19753-19753s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 451166da609680d2-e631a5866945aa16
+  SK_er: 60f9d6fcd6687f5a-705f64ac9e1c9c60
+  SK_ai: 901b70c0d96503b5-59da02ca832c007f-41b6af0d
+  SK_ar: 53b2fdfcd1927c33-a48dd6bc6a87f224-4b6b5422
+  lifetime/rekey: 90000/69976
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.94
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.94:500
+created: 623600s ago
+peer-id: O = Nokia Solutions and Networks, CN = EA171063886.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/16  established: 2/16  time: 0/195/3070 ms
+IPsec SA  created: 2/174  established: 2/174  time: 0/17/3070 ms
+
+  id/spi: 10246336 dd4433e21b6b70ef/363ee363222ae114
+  direction: responder
+  status: established 19723-19723s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 6d43c2e40de86713-3a6c2459d6569211
+  SK_er: 743bc3a59913f936-fd2ea3b4de9c5abd
+  SK_ai: d87fac5e98c230ae-689d85048b42f652-dabd26a8
+  SK_ar: 33a4a7131e43e0ad-7d798e5ff46231ff-072f7dd9
+  lifetime/rekey: 90000/70006
+  DPD sent/recv: 0000241a/0000241a
+
+  id/spi: 10246280 ab84e76cfff72bd9/9da56a6bfd284302
+  direction: responder
+  status: established 19754-19754s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 9223f06f359297cf-922294b7b2b6027a
+  SK_er: c113b8bc8add0581-d12b5cb3a8cb622e
+  SK_ai: 9cc3a5b98a8764c5-a8d4b2b7297e2213-f10f9b7a
+  SK_ar: ca1849f61534228b-7d9c1561dde849f8-10dce75b
+  lifetime/rekey: 90000/69975
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.34.156
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.156:500
+created: 533230s ago
+peer-id: CN = L1141409255.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/14  established: 2/14  time: 0/224/3090 ms
+IPsec SA  created: 4/296  established: 4/296  time: 0/10/3090 ms
+
+  id/spi: 10253168 20927846a03d5ab7/deeae2bc4c82402f
+  direction: responder
+  status: established 15613-15613s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 2245afe7d13e3e2e-5895d2aa22a865d6
+  SK_er: 893af949a6324a70-af14c3257d0b65aa
+  SK_ai: bde40a8515b1de9a-32a100f877395b36-a3d87214
+  SK_ar: c764b2b9932ed451-d287ec663a467944-d075ac6d
+  lifetime/rekey: 90000/74116
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10253068 48bb5fe290790221/b852ba3cdca381c7
+  direction: responder
+  status: established 15661-15661s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 0fcdbad155a2efef-3f1d3ab012879f99
+  SK_er: 7a56512345886d3c-59e7861fd53443ce
+  SK_ai: 52ae2955b604656c-86f17711f69e8516-bd0b7447
+  SK_ar: c98e85d1c80d30b9-c4d08b11fad95bf5-3e8b7146
+  lifetime/rekey: 90000/74068
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.10
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.10:500
+created: 530544s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = OCSColdLab01-NSW-O-22RR-79174-L21-E-S12
+peer-auth: yes
+IKE SA  created: 1/8  established: 1/7  time: 0/1288/9020 ms
+IPsec SA  created: 3/267  established: 3/267  time: 0/0/0 ms
+
+  id/spi: 10153766 00ee351316a05de5/2cb40f43ca28b3ff
+  direction: responder
+  status: established 75722-75722s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 1a6eb7a95a179a21-d155f00504274205
+  SK_er: 8e2146c4c9fefbaf-600f68b0d0bb8421
+  SK_ai: 4b6a29068ca51276-6d29dd6609500aff-c5b73a40
+  SK_ar: b9d676a0e24d217b-b1a5dadfbc3b1f4c-e4ad923b
+  lifetime/rekey: 90000/14007
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.18
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.18:500
+created: 528649s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = OCSColdLab02-NSW-O-22RR-127000-L21-E-S123
+peer-auth: yes
+IKE SA  created: 1/7  established: 1/7  time: 0/2/20 ms
+IPsec SA  created: 3/267  established: 3/267  time: 0/0/0 ms
+
+  id/spi: 10162987 57a73a5be791e3ca/c0cedfe9328edb90
+  direction: responder
+  status: established 70140-70140s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 9df98c031c35b5c0-956540b9ca71969d
+  SK_er: 210d04d04b58bfd6-7037d5a9f52fcd55
+  SK_ai: 3172003d68f7e00d-e6a0bc05648d2518-7d98d745
+  SK_ar: 1dd48aac34ce9821-9c345a38900d9b57-c05bd6d7
+  lifetime/rekey: 90000/19589
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.94
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.94:500
+created: 522244s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = MascotLab01-NSW-O-22RR-2000-L7L9L18L21-E-S12
+peer-auth: yes
+IKE SA  created: 1/15  established: 1/14  time: 0/228/3020 ms
+IPsec SA  created: 3/282  established: 3/282  time: 0/0/0 ms
+
+  id/spi: 10258926 77a275eb04c8e7d2/7d21e92394693b97
+  direction: responder
+  status: established 12115-12115s ago = 30ms
+  proposal: aes-128-sha1
+  SK_ei: 8653fdbe96d104a8-b0d487252c8a51a9
+  SK_er: 8cb8f4f9b3e280fa-451f38065ee0f161
+  SK_ai: 1512d1614dd24cd5-70d73c804e3f8368-d3bce3ee
+  SK_ar: b04913758fc6c809-b26ecc517754ec7f-74839663
+  lifetime/rekey: 90000/77614
+  DPD sent/recv: 00000013/00000013
+
+vd: LTE_Traffic/2
+name: n10.116.60.10
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.10:500
+created: 520713s ago
+peer-id: O = Nokia Solutions and Networks, CN = EA171064302.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/14  established: 2/14  time: 0/653/9100 ms
+IPsec SA  created: 1/51  established: 1/51  time: 0/178/9100 ms
+
+  id/spi: 10273730 8ec2eab4e7d94c74/ed53bf1571c169f3
+  direction: responder
+  status: established 3132-3132s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: f05b766f00cef62f-2dc3e01d85d7f65f
+  SK_er: 25d0f7e60c5c3a7d-893cb579bfbbe2cb
+  SK_ai: 9834f376c8ec3ae3-e74eeeaea6273ba9-c76b41fd
+  SK_ar: 136061ec086a2793-5851e6d44acdad44-f5d5643e
+  lifetime/rekey: 90000/86597
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10273729 b0ca45f9a6e64cab/4931d37071f7b559
+  direction: responder
+  status: established 3134-3134s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 04f3ba1eb574f628-1c634c9cfc841841
+  SK_er: 7b7c35aaead1ce17-8a02436cfb0be673
+  SK_ai: 3441b2f30fee7ca9-c3fe305f75f347d8-fd4313a3
+  SK_ar: a6347a17f4a1cfa2-e48f37682381351a-4e05f861
+  lifetime/rekey: 90000/86595
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.28.86
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.86:500
+created: 456604s ago
+peer-id: O = Nokia Solutions and Networks, CN = EA194259661.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/12  established: 2/12  time: 0/253/3030 ms
+IPsec SA  created: 2/128  established: 2/128  time: 0/23/3030 ms
+
+  id/spi: 10237144 b227c49e7118f679/9a141d28c8f86817
+  direction: responder
+  status: established 25256-25256s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 7389b3fce5de9760-12e031a41f051c63
+  SK_er: d344f9b400607525-b2b08e35c7d6648b
+  SK_ai: 1633acee27346961-d978f3c4de6b879e-5fd5d7ea
+  SK_ar: 4375267866dcc6ac-8930db560108318a-5c074ece
+  lifetime/rekey: 90000/64473
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10237140 1d886a477d146e1d/0afc1caeac63e5e5
+  direction: responder
+  status: established 25265-25265s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 2c944e497329d033-eb249c0ca90c293e
+  SK_er: 4fa5d05f5c05ee2e-4fe5671f3b0cfd66
+  SK_ai: 8078eb89634c8008-d369851196140a32-d4f94577
+  SK_ar: 10cd4502473d4748-223598cfe78151e5-c92642ec
+  lifetime/rekey: 90000/64464
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.98
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.98:500
+created: 176734s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = MascotLab01-NSW-O-22RR-2001-L23L26-E-S12
+peer-auth: yes
+IKE SA  created: 1/8  established: 1/8  time: 0/1145/9020 ms
+IPsec SA  created: 3/105  established: 3/105  time: 0/0/0 ms
+
+  id/spi: 10258927 51fd914bf8373eed/50a90dbad3c6bc65
+  direction: responder
+  status: established 12115-12115s ago = 30ms
+  proposal: aes-128-sha1
+  SK_ei: 35007f4210cdbac4-e37d7afc5f6b7384
+  SK_er: a4f5d8479b90433b-6c72d6f07939114b
+  SK_ai: 209520d8a75a6d95-fa19f153205666f9-b2ffa2be
+  SK_ar: 11a4ca697c7f3240-a7abc508e28c4c52-55550c8f
+  lifetime/rekey: 90000/77615
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.6
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.6:500
+created: 106415s ago
+peer-id: CN = L1141409766.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 1/3  established: 1/2  time: 0/50/100 ms
+IPsec SA  created: 1/16  established: 1/15  time: 0/0/0 ms
+
+  id/spi: 10245657 726837181e8d7a26/4f5f851b0ee39a16
+  direction: responder
+  status: established 20124-20124s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: beb3cf8e8555761e-a606011980282c8f
+  SK_er: 08362fb87d2a56ba-654f038dc8c197d7
+  SK_ai: 8fb2f68720eddff5-322289e70fa15d9a-6b2a3377
+  SK_ar: db3faae280eb6eb9-1e1e35a67728eff6-c404deb7
+  lifetime/rekey: 90000/69605
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.58
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.58:500
+created: 103974s ago
+peer-id: O = Nokia Siemens Networks, CN = RY153703952.nokiasiemensnetworks.com
+peer-auth: yes
+IKE SA  created: 2/4  established: 2/4  time: 0/2272/9060 ms
+IPsec SA  created: 2/30  established: 2/30  time: 0/302/9060 ms
+
+  id/spi: 10249722 14985e293e9222e3/8469fadf18a36279
+  direction: responder
+  status: established 17695-17695s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 71a6c74340915822-4fbf5b98583339ab
+  SK_er: 6e208bba097948ed-1c801f4cab3ae621
+  SK_ai: 6f1f3c5b9b17f408-d83ed95cf5be37cb-1e4cafaa
+  SK_ar: bb8f216cc6905d02-306916b00f947973-7b5bf202
+  lifetime/rekey: 90000/72034
+  DPD sent/recv: 000003ab/000003ab
+
+  id/spi: 10249696 b8771b98e8c3dbf6/f5c46897ad8590b4
+  direction: responder
+  status: established 17696-17696s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 9e5f3369395aec43-dcc261bfb6c5ea88
+  SK_er: d9bcb281c3105208-357039748c3a717d
+  SK_ai: b24e1402ea08b660-e3f60a885a7034a5-edeb50e0
+  SK_ar: 3a8acbc6c3c30640-d784cc66970856c7-2107ca8c
+  lifetime/rekey: 90000/72033
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.42
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.42:500
+created: 96610s ago
+peer-id: O = Nokia Solutions and Networks, CN = EB172410009.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 1/4  established: 1/2  time: 0/20/40 ms
+IPsec SA  created: 1/14  established: 1/14  time: 0/0/0 ms
+
+  id/spi: 10261909 697b12cd7bff5876/4f18368c8254b73e
+  direction: responder
+  status: established 10322-10322s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: 322ce4310508c7d8-703d85477f6f3068
+  SK_er: 1aa126f745fa6ef5-c39e11851edae62f
+  SK_ai: 60f43e190f4f3946-7242f370af11aaf5-bb9ffcba
+  SK_ar: 5a7d52b4c8858d8c-b99e1ca12d63b98f-cdeed27f
+  lifetime/rekey: 90000/79407
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.82
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.82:500
+created: 86970s ago
+peer-id: C = SE, O = Ericsson, CN = OCSColdLab07-NSW-O-22RR-1008-L7L9-E-S123
+peer-auth: yes
+IKE SA  created: 1/2  established: 1/2  time: 0/10/20 ms
+IPsec SA  created: 3/45  established: 3/45  time: 0/0/0 ms
+
+  id/spi: 10262013 292eab0b1412db12/45db1ab7bccebdfe
+  direction: responder
+  status: established 10253-10253s ago = 0ms
+  proposal: aes-128-sha1
+  SK_ei: fadb83fd12b61ae9-d90c6736de25db1f
+  SK_er: 28ac35aa7342b735-b5f56554276b53f3
+  SK_ai: 232106e831f1368f-301b44e0cf976831-5235ad97
+  SK_ar: 6c953e95d6eb4abd-e21707c37fd7f0a8-58bee255
+  lifetime/rekey: 90000/79476
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.22
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.22:500
+created: 85285s ago
+peer-id: O = Nokia Solutions and Networks, CN = L1172913991.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 40/1565/3090 ms
+IPsec SA  created: 2/24  established: 2/24  time: 0/128/3090 ms
+
+  id/spi: 10137981 a139e97dd43c2fed/5db2db88d67a6f01
+  direction: responder
+  status: established 85284-85284s ago = 40ms
+  proposal: aes-128-sha1
+  SK_ei: ff94123bb5b9e648-bbb7d5d24aba638b
+  SK_er: f52ffd1bd673b3c5-46bea9b96ce5466c
+  SK_ai: 132f734526391a84-abf4350d1c53e1ab-30816566
+  SK_ar: 79b514787eac3b17-462dbe79a4dc52ac-9d2c0de8
+  lifetime/rekey: 90000/4445
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10137980 59489a3b50b722ff/133a20e79e1a9335
+  direction: initiator
+  status: established 85285-85282s ago = 3090ms
+  proposal: aes-128-sha1
+  SK_ei: ee83223ec6ecbdfd-b7e5dbdf1dd0a06b
+  SK_er: 721780b258f642a3-afe0335ebff0fec1
+  SK_ai: 5db5ed17b86bc0f8-079a490687cf5c79-b5cdad4a
+  SK_ar: 26c2142d7cc91662-b226d9cfffa6dde8-bb626751
+  lifetime/rekey: 90000/4417
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.49.8
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.8:500
+created: 67250s ago
+peer-id: CN = 210305488610FB005933.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/448  established: 1/448  time: 80/111/3150 ms
+IPsec SA  created: 1/14  established: 1/14  time: 0/152/2010 ms
+
+  id/spi: 10278707 2f0acd3b4142be41/6c394d5ecf0f90b2
+  direction: initiator
+  status: established 134-134s ago = 90ms
+  proposal: aes-128-sha1
+  key: 13c1ad3e74b24b14-14cd9cb3cf27b10e
+  lifetime/rekey: 180/15
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.60.98
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.98:500
+created: 46473s ago
+peer-id: CN = 210305488610G5011737.huawei.com, C = AU, O = Optus, OU = Production
+peer-auth: yes
+IKE SA  created: 1/372  established: 1/371  time: 70/157/5100 ms
+IPsec SA  created: 1/176  established: 1/174  time: 0/7/10 ms
+
+  id/spi: 10278817 566f983240e3f45a/e7024dfcc5f89455
+  direction: responder
+  status: established 48-48s ago = 80ms
+  proposal: aes-128-sha1
+  key: 9a9fed6a3bc624c5-149a009ce365ac3a
+  lifetime/rekey: 180/111
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.34.8
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.8:500
+created: 37622s ago
+peer-id: CN = L6141720304.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 50/1560/3070 ms
+IPsec SA  created: 2/12  established: 2/12  time: 0/255/3070 ms
+
+  id/spi: 10216667 b0ca63d6e1ec3dbd/f981302127e889ff
+  direction: responder
+  status: established 37621-37621s ago = 50ms
+  proposal: aes-128-sha1
+  SK_ei: 0b1ceda65a44555b-47a9ee07016bec97
+  SK_er: 09fc628107113a90-1d662170d7c9ebb1
+  SK_ai: 2208175cba0b86ad-423aaa399c3ace0b-3b5bd9e1
+  SK_ar: daa9032fd558fc4d-9a6c20fb3802e0dc-add3c1a2
+  lifetime/rekey: 90000/52108
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10216666 22337f59054b3a91/a7c4d1bbe6bff062
+  direction: initiator
+  status: established 37622-37619s ago = 3070ms
+  proposal: aes-128-sha1
+  SK_ei: 4c513dff656d78f8-d3736431e91465fe
+  SK_er: dfccd15fe29a5eef-f7d275f26777233f
+  SK_ai: 288858e54770ef3a-ce3763c9dce66684-e895474d
+  SK_ar: 50d3ed31f6f6a5ef-ca339f87bbd35130-aadc72db
+  lifetime/rekey: 90000/52080
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.34.157
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.157:500
+created: 22619s ago
+peer-id: CN = L6132324414.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 1/2  established: 1/1  time: 100/100/100 ms
+IPsec SA  created: 1/5  established: 1/4  time: 0/0/0 ms
+
+  id/spi: 10241572 0cd206949f766af2/1f9f65e602611100
+  direction: responder
+  status: established 22596-22595s ago = 100ms
+  proposal: aes-128-sha1
+  SK_ei: 1e9fe28a87b536e0-d4a367fe353774c5
+  SK_er: ef09694de543da31-d7952d9eb0035142
+  SK_ai: ec3a9b4b4bd8010c-767f05c86b7ff71d-77396a6a
+  SK_ar: d1b5969e0f1881af-ac27aef5587c4b53-431a37fa
+  lifetime/rekey: 90000/67134
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.49.4
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.4:500
+created: 22100s ago
+peer-id: CN = L6134005577.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 60/4565/9070 ms
+IPsec SA  created: 2/8  established: 2/8  time: 0/1133/9070 ms
+
+  id/spi: 10242406 07163a5e085ea448/b569aaa48d8f196e
+  direction: responder
+  status: established 22092-22091s ago = 60ms
+  proposal: aes-128-sha1
+  SK_ei: 0357ce4ec602ebe6-ffcb8cec0bc2eea0
+  SK_er: 95917052ad793962-8fb1442d5c523f80
+  SK_ai: c1c6b2478d866aca-4e07c63eb2587714-1957d024
+  SK_ar: c3c10d3793a4a70b-095e31bae9e1446a-b7dd15f2
+  lifetime/rekey: 90000/67638
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10242403 330a3ff1fda34881/d6381eb0577ea5f4
+  direction: initiator
+  status: established 22100-22091s ago = 9070ms
+  proposal: aes-128-sha1
+  SK_ei: 9d4a856599d85a93-486e752606e99351
+  SK_er: 2f4957fbd35ff713-df5de0523824b560
+  SK_ai: aff89f5b6a69810c-b582e4e47b57bbe5-cdd72366
+  SK_ar: 32514c302fe6e6df-ac5e94fd4e0b8d89-8c950038
+  lifetime/rekey: 90000/67608
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.59.234
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.59.234:500
+created: 21740s ago
+peer-id: CN = L6142521881.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 50/10575/21100 ms
+IPsec SA  created: 2/7  established: 2/7  time: 0/3014/21100 ms
+
+  id/spi: 10243026 31ad90c23ea6aeb2/d3276628b91b93be
+  direction: responder
+  status: established 21727-21727s ago = 50ms
+  proposal: aes-128-sha1
+  SK_ei: 99541a155c8d1789-6595d9543b0e46b3
+  SK_er: 6c2f14c79a82d29a-527d886c882a157c
+  SK_ai: 0de3d7815c800539-546e82f133a08c29-37cfc520
+  SK_ar: d39b7dfa1a8fe9ae-b0bcd0870f18bd50-15e6cd5b
+  lifetime/rekey: 90000/68002
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10242977 4deafd9bfdc528a0/95c37ef6ac3a4910
+  direction: initiator
+  status: established 21740-21719s ago = 21100ms
+  proposal: aes-128-sha1
+  SK_ei: af4a539e516b804b-cb3a0d8e3e140b60
+  SK_er: 9dbba95da9505494-19b5ce40abb62d63
+  SK_ai: b607d2cf6ced1708-04280037d90edb69-acfa467b
+  SK_ar: e2e8518a23b5cec7-7c62ab0526f38b75-7af9ae7f
+  lifetime/rekey: 90000/67980
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.49.5
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.5:500
+created: 20419s ago
+peer-id: CN = L1124410926.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 1/2  established: 1/1  time: 60/60/60 ms
+IPsec SA  created: 1/3  established: 1/2  time: 0/0/0 ms
+
+  id/spi: 10245218 3d80b1833b8be6e3/9f2fa7586a08af90
+  direction: responder
+  status: established 20396-20396s ago = 60ms
+  proposal: aes-128-sha1
+  SK_ei: 45940b7c79ccd262-388c4077bdc36732
+  SK_er: a4bd4d0221ce2467-3b0a26b8512c156c
+  SK_ai: dc7e14613738be00-7528e7269f7aaff8-b36ad49b
+  SK_ar: 4322abfa65280429-75dadfb438ab6f4b-44841f1c
+  lifetime/rekey: 90000/69333
+  DPD sent/recv: 00000441/00000441
+
+vd: LTE_Traffic/2
+name: n10.250.175.6
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.175.6:500
+created: 19989s ago
+peer-id: CN = L6134204558.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/3  established: 2/3  time: 50/7073/21100 ms
+IPsec SA  created: 2/7  established: 2/7  time: 0/3014/21100 ms
+
+  id/spi: 10245921 f905926715a750b6/f12f0c5396a77dd6
+  direction: responder
+  status: established 19968-19968s ago = 50ms
+  proposal: aes-128-sha1
+  SK_ei: 37037477c303972b-1d4cf161dd68a301
+  SK_er: 33e3dc88967fef06-d9335d96fb754897
+  SK_ai: 3f827b6582abc8f4-458626acede6fea2-49d5ee82
+  SK_ar: ee91a8840e7aed8d-653f60f509ab0777-5f9b531c
+  lifetime/rekey: 90000/69761
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10245915 f9511e3aea49c46d/93faa919a609fce5
+  direction: initiator
+  status: established 19989-19968s ago = 21100ms
+  proposal: aes-128-sha1
+  SK_ei: 2331839108dbab0e-2d9b3e14a0889af2
+  SK_er: ab1b482d835818ad-db856958eccb9101
+  SK_ai: eba327842988e836-bb059ab08bb3814f-976cff20
+  SK_ar: b4c86a7ff7cbe9f8-957a68c9bd69df3b-ae01dda2
+  lifetime/rekey: 90000/69731
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.118
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.118:500
+created: 17506s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = MascotLab02-NSW-O-22RR-2006-L23L26-E-S12
+peer-auth: yes
+IKE SA  created: 1/6  established: 1/6  time: 20/25/30 ms
+IPsec SA  created: 3/18  established: 3/18  time: 0/0/0 ms
+
+  id/spi: 10264486 1008c9929a6067d2/4dd174ffaf1cf284
+  direction: responder
+  status: established 8774-8774s ago = 30ms
+  proposal: aes-128-sha1
+  SK_ei: 1b37675b350b98c9-4fbb0ca9acdd77df
+  SK_er: 33ba8dc015d3caf1-2f620039d08584a1
+  SK_ai: f94edef3b04a3f0f-a5d23ab39b39d7a4-2b527e4f
+  SK_ar: 4c65eccda40f5b49-ac90721d5242d7bd-51f3506e
+  lifetime/rekey: 90000/80955
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.26
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.26:500
+created: 16398s ago
+peer-id: O = Nokia Solutions and Networks, CN = L1163509506.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 1/2  established: 1/1  time: 40/40/40 ms
+IPsec SA  created: 1/4  established: 1/3  time: 0/0/0 ms
+
+  id/spi: 10251887 db4a39784999bed2/a049a487d4479ee7
+  direction: responder
+  status: established 16376-16376s ago = 40ms
+  proposal: aes-128-sha1
+  SK_ei: cf522695c88aa17b-662b5c520329b2e0
+  SK_er: d15fa7a2d820cd7c-88b4bd1f8c3b2e47
+  SK_ai: a45966a97a8c11b7-18b2c6d8451ac225-fde535f3
+  SK_ar: e882ed9dfbe0a5b3-01201df51e7a8372-897678f7
+  lifetime/rekey: 90000/73353
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.56.36
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.56.36:500
+created: 15968s ago
+peer-id: CN = L6132321265.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 40/1560/3080 ms
+IPsec SA  created: 2/6  established: 2/6  time: 0/513/3080 ms
+
+  id/spi: 10252556 a7d172c155f66abb/62ae63d4305f3e27
+  direction: responder
+  status: established 15967-15967s ago = 40ms
+  proposal: aes-128-sha1
+  SK_ei: 95eadce75d2b943c-11da93e9bcaf71d8
+  SK_er: bf8a08aa9bcc9276-550509f47b082199
+  SK_ai: d7b72c649ee69d72-50af3e7c4aee9690-9ee5c50a
+  SK_ar: ccde32ccebf8f181-06799f88e0eccad7-54992eae
+  lifetime/rekey: 90000/73762
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10252555 8d35bd3a6d4b3f55/2311d2e4039bbce9
+  direction: initiator
+  status: established 15968-15965s ago = 3080ms
+  proposal: aes-128-sha1
+  SK_ei: cdca744ba9205fc8-c28d7944298dd6ad
+  SK_er: 4425c7b6a4bb3221-5b3e6fc219a57161
+  SK_ai: 1c6ff74a07e47191-a2a9040cbefbfeab-7438a58e
+  SK_ar: 2c1d31198ca6563e-5469905b95cc0485-898e38e2
+  lifetime/rekey: 90000/73734
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.14
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.14:500
+created: 9072s ago
+peer-id: C = SE, O = Ericsson, CN = OCSColdLab02-NSW-O-22RR-454680-NR35-E-S123
+peer-auth: yes
+IKE SA  created: 1/2  established: 1/1  time: 30/30/30 ms
+IPsec SA  created: 3/4  established: 3/3  time: 0/0/0 ms
+
+  id/spi: 10264018 482fa00768607433/71899c3378cd1e93
+  direction: responder
+  status: established 9067-9067s ago = 30ms
+  proposal: aes-128-sha1
+  SK_ei: d84c616c7cda2a6d-18903929173c0b99
+  SK_er: cdda3efa4ca671b2-4b0a266dd38dc68b
+  SK_ai: 01c953b264b9f52e-c6ea94b75b1f61fb-639b3820
+  SK_ar: 9d883398ea1c7b0c-48f0854fce96ed64-c9ea7eee
+  lifetime/rekey: 90000/80662
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.250.157.4
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.157.4:500
+created: 8091s ago
+peer-id: CN = L6132948197.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 40/10570/21100 ms
+IPsec SA  created: 2/4  established: 2/4  time: 0/5275/21100 ms
+
+  id/spi: 10265670 93932b47dc3b4e45/71aa237df95b2d61
+  direction: responder
+  status: established 8076-8076s ago = 40ms
+  proposal: aes-128-sha1
+  SK_ei: bac121f765e3b3ac-2179c61d9753e276
+  SK_er: 0fe06d8e9715a588-0ff4aaca4ade9e9f
+  SK_ai: 87845a5844d62bf1-80ddea2e5d8e4f25-42a889bb
+  SK_ar: 1dcb2d6161f1e7a5-11ce885cfd8c261d-9bc39e0c
+  lifetime/rekey: 90000/81653
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10265621 06ec28919f76e200/46b7bab909e507aa
+  direction: initiator
+  status: established 8091-8069s ago = 21100ms
+  proposal: aes-128-sha1
+  SK_ei: bf756d92d87c528a-e012f75154755042
+  SK_er: 5441eb49a437626d-674dac9048fd7b7f
+  SK_ai: 8fa81b398daf7ff6-40054f23436c01e7-43b58270
+  SK_ar: 7e05dc04cfb47ef6-9e03b2e96d627faa-808b1f70
+  lifetime/rekey: 90000/81630
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.114
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.114:500
+created: 7812s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = MascotLab02-NSW-O-22RR-2005-L7L9L18L21-E-S12
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 30/30/30 ms
+IPsec SA  created: 3/6  established: 3/6  time: 0/0/0 ms
+
+  id/spi: 10266084 9022cc3bdeaa6245/6de1e9b106e34c4a
+  direction: responder
+  status: established 7812-7812s ago = 30ms
+  proposal: aes-128-sha1
+  SK_ei: b1de9af84d8204d2-b2c867b0aa95a613
+  SK_er: bb8f906a107b038c-c6707713be6243ce
+  SK_ai: 71c9863a593ab836-2ae0be0aa7362a67-408fd773
+  SK_ar: 4d4238c8f6fb1dc9-100963b41ed095f0-be964c85
+  lifetime/rekey: 90000/81917
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.46
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.46:500
+created: 6837s ago
+peer-id: CN = EA1427B2122.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 1810/1810/1810 ms
+IPsec SA  created: 1/1  established: 1/1  time: 1810/1810/1810 ms
+
+  id/spi: 10267667 ec66166d719fb01c/7e9ec5f450ed053d
+  direction: initiator
+  status: established 6837-6835s ago = 1810ms
+  proposal: aes-128-sha1
+  SK_ei: b24bc59282106e99-bad6583d79073e3d
+  SK_er: bfc304ee7b835c02-f6a28efefa380939
+  SK_ai: 8cb5ef226174dc3d-f41144b6386de9cc-c67b3f58
+  SK_ar: 1d0269bd989d7581-7a653ef311ea0619-9aa62489
+  lifetime/rekey: 90000/82864
+  DPD sent/recv: 00002cd0/00002cd0
+
+vd: LTE_Traffic/2
+name: e10.116.28.62
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.62:500
+created: 5820s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = OCSColdLab06-NSW-O-22RR-1005-NR40-E-S123
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 20/20/20 ms
+IPsec SA  created: 3/3  established: 3/3  time: 0/0/0 ms
+
+  id/spi: 10269287 b55ce1760e88d22a/817a44a6f2b13b1a
+  direction: responder
+  status: established 5820-5820s ago = 20ms
+  proposal: aes-128-sha1
+  SK_ei: e2e7dbd27645ec25-b32b8325a8cc5610
+  SK_er: ba434ba448474b68-d93d0558e32d48e1
+  SK_ai: 7fb7f73c0bdffad6-fdb03df37208e8ab-b8dda92f
+  SK_ar: d2475111dccfd6f1-38e7925befd09dd9-ca702b95
+  lifetime/rekey: 90000/83909
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.2
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.2:500
+created: 4718s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = OCSColdLab01-NSW-O-22RR-1119558-NR35-E-S123
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 20/20/20 ms
+IPsec SA  created: 3/3  established: 3/3  time: 0/0/0 ms
+
+  id/spi: 10271109 04e69908765791db/f4f69817847ce60a
+  direction: responder
+  status: established 4718-4718s ago = 20ms
+  proposal: aes-128-sha1
+  SK_ei: f6ff85fa616b4416-f98407c75ba7cd7a
+  SK_er: 8cc2cf0d33147236-edc8a6ae0d729bf3
+  SK_ai: 3c87f7e38a7e998b-a0a0d11fdce41434-5321623c
+  SK_ar: 5e2e8d398a656947-04c7963940a1b5e6-bbef7910
+  lifetime/rekey: 90000/85011
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.49.6
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.6:500
+created: 4369s ago
+peer-id: CN = L6130509116.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 50/4565/9080 ms
+IPsec SA  created: 2/56  established: 2/56  time: 0/162/9080 ms
+
+  id/spi: 10271671 ab3a62e1d7c89b5d/ebf4c0af9332aee2
+  direction: responder
+  status: established 4365-4365s ago = 50ms
+  proposal: aes-128-sha1
+  SK_ei: 2dd9bb6b51d7153c-29938402332d70b1
+  SK_er: 3f67c9f62daa6c1c-30f29c9d8f557588
+  SK_ai: 325a267b4099df1b-92a2cc63bc33cc12-919d7b4a
+  SK_ar: fd612053374705f5-01be99c0e3ad8aea-7d0aea39
+  lifetime/rekey: 90000/85364
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10271669 7aeb5395bf8458d1/63f30f5cb99d97ed
+  direction: initiator
+  status: established 4369-4360s ago = 9080ms
+  proposal: aes-128-sha1
+  SK_ei: e1c8212db65cc11d-cc4a84b3be68e736
+  SK_er: 221570b3443f97b1-ebd11c6a48e59517
+  SK_ai: c504cf7637cc0020-314011cf6bf4b1a1-5ce75ebc
+  SK_ar: 6857fca5347a8468-464911b384fce7ca-108f0b59
+  lifetime/rekey: 90000/85339
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.74
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.74:500
+created: 3866s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = OCSColdLab08-NSW-O-22RR-1010-NR40-E-S1
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 20/20/20 ms
+IPsec SA  created: 3/3  established: 3/3  time: 0/0/0 ms
+
+  id/spi: 10272493 cf39aabc0c608278/11cec7d612956806
+  direction: responder
+  status: established 3866-3866s ago = 20ms
+  proposal: aes-128-sha1
+  SK_ei: 67b44ae0fb5f1213-21103fac29f50f3f
+  SK_er: 82eadfbaf8a3fb61-7cd9139d687216aa
+  SK_ai: 34dd167544ed6845-1746c8d4e2266ab5-e00c2bf5
+  SK_ar: 99c723dd8a928ce1-9ab84d19bb961ace-d74a073d
+  lifetime/rekey: 90000/85863
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.250.190.90
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.90:500
+created: 3723s ago
+peer-id: O = Nokia Solutions and Networks, CN = EA1621B0262.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 50/1555/3060 ms
+IPsec SA  created: 2/2  established: 2/2  time: 0/1530/3060 ms
+
+  id/spi: 10272751 e95a1078849f5c7a/b6e7a02501aae843
+  direction: responder
+  status: established 3722-3722s ago = 50ms
+  proposal: aes-128-sha1
+  SK_ei: 9225a52141e7d90e-97fb6f149b055837
+  SK_er: 0fde80f363b55277-86424978f4c1eca4
+  SK_ai: ef8948916ebd44c0-ea10a45196671a17-46ce7947
+  SK_ar: 793a2fdbd6ccf2fd-a52cb8cc225d5b59-e03753e5
+  lifetime/rekey: 90000/86007
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10272749 b05b197e80b05a1a/cd8ba344458ff982
+  direction: initiator
+  status: established 3723-3720s ago = 3060ms
+  proposal: aes-128-sha1
+  SK_ei: 74a2bde1a87f5918-a24020d89d915211
+  SK_er: f7e3e0a288485026-3e4ddb20310b12ee
+  SK_ai: 6477ff043c15cc66-e94bb18ad1fad869-8ac04ad9
+  SK_ar: 0b220721b8aa938e-05db0eb240e75e0b-15badc61
+  lifetime/rekey: 90000/85979
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.49.14
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.14:500
+created: 3247s ago
+peer-id: CN = L6134017120.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 1/2  established: 1/1  time: 40/40/40 ms
+IPsec SA  created: 1/2  established: 1/1  time: 0/0/0 ms
+
+  id/spi: 10273576 39ef7adbb7215365/88eb183f2d22b7c1
+  direction: responder
+  status: established 3218-3218s ago = 40ms
+  proposal: aes-128-sha1
+  SK_ei: 42c77352579177f3-da4846b53d43e2ac
+  SK_er: 213d389156d150cb-b4ce78dc80f8c35e
+  SK_ai: 7300bc4dde028f76-ab4d7aba899d1b61-c850ab99
+  SK_ar: 985f8606dc6ddde2-33bee7ee4451fd19-111e4679
+  lifetime/rekey: 90000/86511
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.28.126
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.126:500
+created: 2564s ago
+peer-id: O = Nokia Solutions and Networks, CN = L1183110588.nokiasolutionsandnetworks.com
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 10/1540/3070 ms
+IPsec SA  created: 2/2  established: 2/2  time: 0/1535/3070 ms
+
+  id/spi: 10274663 da839f99825ff0c5/30de6e2c8b4c9b36
+  direction: responder
+  status: established 2563-2563s ago = 10ms
+  proposal: aes-128-sha1
+  SK_ei: 0acdd4645f833488-3beb7ffc58eb46a4
+  SK_er: 807f0b204f8c164b-99cc0517804484e2
+  SK_ai: 474727526133a6e8-c189c32b213db987-0501fd51
+  SK_ar: 7d623b4447f8dcf6-dffe49eae14994ef-4bbf610f
+  lifetime/rekey: 90000/87166
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10274662 104b5f8aaf3bf497/2d1065ccba579fbb
+  direction: initiator
+  status: established 2564-2561s ago = 3070ms
+  proposal: aes-128-sha1
+  SK_ei: a18d82a6fb69ab77-2c72573a881305cc
+  SK_er: b8e8ed23a4bc7931-6e6ae57fb39833f5
+  SK_ai: af09a423a0085e72-e9636d6fdcbd8b2c-fc25ade4
+  SK_ar: f0217067aa48bea9-85d9979246984629-20c18c1a
+  lifetime/rekey: 90000/87138
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: n10.116.60.34
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.34:500
+created: 2551s ago
+peer-id: CN = L6134010250.nokiasiemensnetworks.com, O = Nokia Siemens Networks
+peer-auth: yes
+IKE SA  created: 2/2  established: 2/2  time: 50/1560/3070 ms
+IPsec SA  created: 2/2  established: 2/2  time: 0/1535/3070 ms
+
+  id/spi: 10274712 c3927144e0d1e910/10ad9058928d18b5
+  direction: responder
+  status: established 2549-2549s ago = 50ms
+  proposal: aes-128-sha1
+  SK_ei: fa00680fc2cfbb6c-fb6b0ce1552e0187
+  SK_er: 885e1eb4e18ed881-64a48f707a465a52
+  SK_ai: 412834925ab820e8-a95ef98699307c13-1d154a89
+  SK_ar: d6effe9e60ba89fa-b23c7b1271df9e62-07b5b86f
+  lifetime/rekey: 90000/87180
+  DPD sent/recv: 00000000/00000000
+
+  id/spi: 10274711 749bc9ae9dbbb785/6eaef913bd5f3810
+  direction: initiator
+  status: established 2551-2548s ago = 3070ms
+  proposal: aes-128-sha1
+  SK_ei: 7790e647e77d9ef9-f67c9fbd2b050f81
+  SK_er: a7958e7ae24fe463-2880aeb15cc57b29
+  SK_ai: 623b6f16d6b1a494-e7bffc954f1c7e8b-ca15aa2f
+  SK_ar: b21b6a8ff249ec6e-4ed24a34a068636c-bc7a71eb
+  lifetime/rekey: 90000/87151
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.66
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.66:500
+created: 2315s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = OCSColdLab06-NSW-O-22RR-1006-L07-E-S123
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 20/20/20 ms
+IPsec SA  created: 3/3  established: 3/3  time: 0/0/0 ms
+
+  id/spi: 10275076 0a6fc5ec7c94513c/78860d67ba3421e2
+  direction: responder
+  status: established 2315-2315s ago = 20ms
+  proposal: aes-128-sha1
+  SK_ei: 24c0838f3bff8ef6-069c6cb3bda9dbb4
+  SK_er: c5a7f1c3f9ae65ea-1bb8adeda2730ed9
+  SK_ai: c41f8a89fdcb2f85-3d628a717546ffdb-5c7c0b11
+  SK_ar: 152ff3dd5a813809-09d6c2ad6a50810b-8e9830e1
+  lifetime/rekey: 90000/87414
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: e10.116.28.70
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.70:500
+created: 89s ago
+peer-id: C = AU, O = OPTUS, OU = senm, CN = OCSColdLab07-NSW-O-22RR-1007-NR78-E-S1
+peer-auth: yes
+IKE SA  created: 1/1  established: 1/1  time: 20/20/20 ms
+IPsec SA  created: 3/3  established: 3/3  time: 0/0/0 ms
+
+  id/spi: 10278761 b4dd348f0baf3d25/28af3f0ac0b84af4
+  direction: responder
+  status: established 89-89s ago = 20ms
+  proposal: aes-128-sha1
+  SK_ei: 7241b184c5ab34af-3c3c0f22c33b120d
+  SK_er: 07f2a6da674ee803-927ef6e4dc672613
+  SK_ai: e019c50a4e08b580-57314fa5a2f63bda-f8f3e947
+  SK_ar: 9e47d5aa338e5b6d-e316fa9466afe472-ff327b31
+  lifetime/rekey: 90000/89640
+  DPD sent/recv: 00000000/00000000
+
+vd: LTE_Traffic/2
+name: h10.116.60.78
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.78:500
+created: 26s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278866 16a2e3a2d13bdfb6/d1bd7bebdf712159
+  direction: responder
+  status: connecting, state 4, started 26s ago
+
+vd: LTE_Traffic/2
+name: n10.116.28.90
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.90:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278868 00ff84d70666b060/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.60.38
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.38:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278869 1f1912e780501de3/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: e10.116.28.34
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.34:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278870 9490d4b75a62b4d8/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: e10.116.28.6
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.6:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278871 aed930c4eb5a3a58/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.66
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.66:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278872 eeecc22716542676/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.86
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.86:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278873 ff118b5e269d5e6a/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.34.158
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.158:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278874 144a12302d7dc60e/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.56.37
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.56.37:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278875 ab207572289cedd8/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.59.238
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.59.238:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278876 af806f5c90123b25/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.59.242
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.59.242:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278877 2425ef6636c6a200/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.60.122
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.122:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278878 0a29d7f415c63290/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.60.14
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.14:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278879 c36c04f3fa6dcd2f/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.116.60.70
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.70:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278880 270498f47b0d6af2/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.117.226.85
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.117.226.85:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278881 338def7a30dcefde/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.198.74.82
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.198.74.82:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278882 c4b1b82f98ac6a3c/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.250.190.68
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.68:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278883 ec023cce2c54b6b0/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.250.190.7
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.7:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278884 a70cbcab3354ba89/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.250.190.71
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.71:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278885 16d922337c353086/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.250.190.72
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.72:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278886 8aa77150ff4e605f/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.250.190.73
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.73:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278887 6a8fcc3d16552f60/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: n10.250.190.74
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.74:500
+created: 13s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278888 fd2a3f592497e6fb/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 13s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.79
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.79:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278889 2e348d474bbbd9dc/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.28.58
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.58:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278890 72c17faf11d298c0/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.34.7
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.34.7:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278891 daf6e1daf943d92e/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.49.12
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.12:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278892 70ff4789f69cd8c7/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.49.13
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.13:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278893 3a5f9f3d264b62b3/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.49.9
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.9:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278894 1cb998b147426422/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.59.230
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.59.230:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278895 ff3acb6a2d9f759f/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.102
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.102:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278896 f62d0866d0126487/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.106
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.106:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278897 ba0e90f54741f0e8/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.110
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.110:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278898 843aa4e4c438fc10/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.114
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.114:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278899 934301141d18c9aa/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.118
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.118:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278900 73155b471dfeb72d/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.30
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.30:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278901 f89020af95008ce0/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.116.60.74
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.60.74:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278902 c2e3071da0da0f7d/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.157.5
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.157.5:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278903 d401074cbecdb1ce/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.157.6
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.157.6:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278904 b19cf064dc4776e4/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.13
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.13:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278905 3d067cbfd8d05c2b/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.14
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.14:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278906 6c8862b3a136ebae/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.83
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.83:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278907 2cbfdb01aff52ad3/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.84
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.84:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278908 87a6b55258285018/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.86
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.86:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278909 6d791d07bc5a850a/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.88
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.88:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278910 5036e72da479f4f2/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.89
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.89:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278911 ed02e1124ca195fc/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: h10.250.190.91
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.91:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278912 0dfd3cba83b21485/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: n10.116.49.11
+version: 1
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.49.11:500
+created: 11s ago
+IKE SA  created: 1/1
+IPsec SA  created: 0/0
+
+  id/spi: 10278913 33652cabc6a019dd/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 11s ago
+
+vd: LTE_Traffic/2
+name: n10.116.28.22
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.116.28.22:500
+created: 2s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278914 ddb7e716ad09d78d/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 2s ago
+
+vd: LTE_Traffic/2
+name: n10.250.190.69
+version: 2
+interface: vlan228_eRan 58
+addr: 10.250.164.76:500 -> 10.250.190.69:500
+created: 2s ago
+IKE SA  created: 1/1
+IPsec SA  created: 1/1
+
+  id/spi: 10278915 29116b9dde7f1088/0000000000000000
+  direction: responder
+  status: connecting, state 3, started 2s ago
+
+o22rrlabsecgw05 (LTE_Traffic) # 

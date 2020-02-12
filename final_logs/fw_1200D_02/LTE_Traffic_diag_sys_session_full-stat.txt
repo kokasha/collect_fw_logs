@@ -1,0 +1,28 @@
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw06 (LTE_Traffic) # session table:		 table_size=4194304 max_depth=2 used=1420
+misc info:	 session_count=728 setup_rate=1 exp_count=144 clash=575
+	memory_tension_drop=0 ephemeral=0/1114112 removeable=0
+	npu_session_count=0
+	nturbo_session_count=0
+delete=0, flush=0, dev_down=8/234 ses_flush_filters=0
+flush_work_num=0
+TCP sessions:
+	 153 in ESTABLISHED state
+	 10 in SYN_SENT state
+	 6 in CLOSE state
+firewall error stat:
+error1=00000000
+error2=00000000
+error3=00000000
+error4=00000000
+tt=00000000
+cont=00000000
+ids_recv=00000000
+url_recv=00000000
+av_recv=00000000
+fqdn_count=00000000
+fqdn6_count=00000000
+
+o22rrlabsecgw06 (LTE_Traffic) # 

@@ -1,0 +1,115 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (vdom) # current vf=LTE_Traffic:1
+
+o22rrlabsecgw03 (LTE_Traffic) # == [ port1 ]
+name: port1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port2 ]
+name: port2   mode: static    ip: 1.1.1.1 255.255.255.252   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port3 ]
+name: port3   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port4 ]
+name: port4   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port5 ]
+name: port5   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port6 ]
+name: port6   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port7 ]
+name: port7   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port8 ]
+name: port8   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port9 ]
+name: port9   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port10 ]
+name: port10   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port11 ]
+name: port11   mode: static    ip: 192.168.201.14 255.255.255.252   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port12 ]
+name: port12   status: up    type: physical   scan-botnet-connections: disable    src-check: enable    aggregate: LAG-01    
+== [ port13 ]
+name: port13   status: up    type: physical   scan-botnet-connections: disable    src-check: enable    aggregate: LAG-01    
+== [ port14 ]
+name: port14   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port15 ]
+name: port15   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ port16 ]
+name: port16   mode: static    ip: 0.0.0.0 0.0.0.0   status: down    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ mgmt1 ]
+name: mgmt1   ip: 10.127.80.192 255.255.255.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ mgmt2 ]
+name: mgmt2   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ modem ]
+name: modem   mode: pppoe    ip: 0.0.0.0 0.0.0.0   netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ ssl.root ]
+name: ssl.root   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    
+== [ ssl.LTE_Traffic ]
+name: ssl.LTE_Traffic   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ npu0_vlink0 ]
+name: npu0_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu0_vlink1 ]
+name: npu0_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu1_vlink0 ]
+name: npu1_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu1_vlink1 ]
+name: npu1_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu2_vlink0 ]
+name: npu2_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu2_vlink1 ]
+name: npu2_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu3_vlink0 ]
+name: npu3_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu3_vlink1 ]
+name: npu3_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu4_vlink0 ]
+name: npu4_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu4_vlink1 ]
+name: npu4_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu5_vlink0 ]
+name: npu5_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu5_vlink1 ]
+name: npu5_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu6_vlink0 ]
+name: npu6_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu6_vlink1 ]
+name: npu6_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu7_vlink0 ]
+name: npu7_vlink0   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ npu7_vlink1 ]
+name: npu7_vlink1   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: physical   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ Lo1 ]
+name: Lo1   ip: 192.168.201.33 255.255.255.255   status: up    type: loopback   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    
+== [ Lo2 ]
+name: Lo2   ip: 192.168.201.34 255.255.255.255   status: up    type: loopback   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    
+== [ dvpn-n1 ]
+name: dvpn-n1   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ dvpn-n2 ]
+name: dvpn-n2   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ dvpn-e1 ]
+name: dvpn-e1   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ dvpn-e2 ]
+name: dvpn-e2   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ dvpn-h1 ]
+name: dvpn-h1   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ dvpn-h2 ]
+name: dvpn-h2   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ vlan123_m38_pe1 ]
+name: vlan123_m38_pe1   mode: static    ip: 192.168.201.10 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan124_m44_pe1 ]
+name: vlan124_m44_pe1   mode: static    ip: 192.168.201.18 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan125_m42_pe1 ]
+name: vlan125_m42_pe1   mode: static    ip: 192.168.201.26 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ dvpn-nsn ]
+name: dvpn-nsn   ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: tunnel   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    wccp: disable    
+== [ vlan126_ha_pe1 ]
+name: vlan126_ha_pe1   mode: static    ip: 192.168.201.22 255.255.255.252   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: enable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ LAG-01 ]
+name: LAG-01   mode: static    ip: 0.0.0.0 0.0.0.0   status: up    netbios-forward: disable    type: aggregate   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    explicit-web-proxy: disable    explicit-ftp-proxy: disable    proxy-captive-portal: disable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ Lo3 ]
+name: Lo3   ip: 1.1.1.1 255.255.255.255   status: up    type: loopback   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    
+== [ Lo4 ]
+name: Lo4   ip: 1.1.1.2 255.255.255.255   status: up    type: loopback   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    
+
+o22rrlabsecgw03 (LTE_Traffic) # 

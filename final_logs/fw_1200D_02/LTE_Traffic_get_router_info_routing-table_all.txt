@@ -1,0 +1,5 @@
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw06 (LTE_Traffic) # 
+o22rrlabsecgw06 (LTE_Traffic) # 

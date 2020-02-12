@@ -1,0 +1,19 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (global) # is_manage_master()=1, is_root_master()=1
+debugzone
+global: 36 f3 95 44 46 9c 59 1c 1d 19 26 d0 63 fe 56 0f 
+root: 3b bd 28 71 32 c4 c7 84 ea 48 43 83 f1 a5 5a ed 
+LTE_Traffic: d1 bc 14 1f 1e 65 4a 8b ad 3a 76 20 6c 6e dd e0 
+all: c9 aa c9 c9 48 96 ee ba e5 3a 5c 7d 2d 7c 4f 83 
+
+checksum
+global: 36 f3 95 44 46 9c 59 1c 1d 19 26 d0 63 fe 56 0f 
+root: 3b bd 28 71 32 c4 c7 84 ea 48 43 83 f1 a5 5a ed 
+LTE_Traffic: d1 bc 14 1f 1e 65 4a 8b ad 3a 76 20 6c 6e dd e0 
+all: c9 aa c9 c9 48 96 ee ba e5 3a 5c 7d 2d 7c 4f 83 
+
+o22rrlabsecgw03 (global) # 

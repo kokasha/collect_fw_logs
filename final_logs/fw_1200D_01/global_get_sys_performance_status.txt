@@ -1,0 +1,21 @@
+o22rrlabsecgw05 # 
+o22rrlabsecgw05 (global) # CPU states: 0% user 1% system 0% nice 99% idle 0% iowait 0% irq 0% softirq
+CPU0 states: 0% user 1% system 0% nice 99% idle 0% iowait 0% irq 0% softirq
+CPU1 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU2 states: 0% user 1% system 0% nice 99% idle 0% iowait 0% irq 0% softirq
+CPU3 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU4 states: 0% user 1% system 0% nice 99% idle 0% iowait 0% irq 0% softirq
+CPU5 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU6 states: 0% user 1% system 0% nice 99% idle 0% iowait 0% irq 0% softirq
+CPU7 states: 0% user 4% system 0% nice 96% idle 0% iowait 0% irq 0% softirq
+Memory: 16450336k total, 3703404k used (22.5%), 12587652k free (76.5%), 159280k freeable (1.0%)
+Average network usage: 4374 / 4487 kbps in 1 minute, 5508 / 5591 kbps in 10 minutes, 6588 / 6658 kbps in 30 minutes
+Average sessions: 856 sessions in 1 minute, 846 sessions in 10 minutes, 847 sessions in 30 minutes
+Average session setup rate: 2 sessions per second in last 1 minute, 2 sessions per second in last 10 minutes, 2 sessions per second in last 30 minutes
+Average NPU sessions: 305 sessions in last 1 minute, 315 sessions in last 10 minutes, 315 sessions in last 30 minutes
+Average nTurbo sessions: 0 sessions in last 1 minute, 0 sessions in last 10 minutes, 0 sessions in last 30 minutes
+Virus caught: 0 total in 1 minute
+IPS attacks blocked: 0 total in 1 minute
+Uptime: 62 days,  5 hours,  5 minutes
+
+o22rrlabsecgw05 (global) # 

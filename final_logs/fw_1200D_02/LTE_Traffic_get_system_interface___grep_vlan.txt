@@ -1,0 +1,11 @@
+o22rrlabsecgw06 # 
+o22rrlabsecgw06 (vdom) # current vf=LTE_Traffic:2
+
+o22rrlabsecgw06 (LTE_Traffic) # == [ vlan226_mplane ]
+name: vlan226_mplane   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.164.68 255.255.255.248   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan228_eRan ]
+name: vlan228_eRan   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.164.76 255.255.255.248   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+== [ vlan227_s1plane ]
+name: vlan227_s1plane   mode: static    management-ip: 0.0.0.0 0.0.0.0   ip: 10.250.164.84 255.255.255.248   status: up    netbios-forward: disable    type: vlan   netflow-sampler: disable    sflow-sampler: disable    scan-botnet-connections: disable    src-check: enable    mtu-override: disable    wccp: disable    drop-overlapped-fragment: disable    drop-fragment: disable    
+
+o22rrlabsecgw06 (LTE_Traffic) # 

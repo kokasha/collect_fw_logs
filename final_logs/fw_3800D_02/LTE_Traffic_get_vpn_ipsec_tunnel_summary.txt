@@ -1,0 +1,14 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (vdom) # current vf=LTE_Traffic:1
+
+o22rrlabsecgw03 (LTE_Traffic) # 'dvpn-e2_0' 10.250.175.38:0  selectors(total,up): 3/3  rx(pkt,err): 47747/0  tx(pkt,err): 4405/95
+'dvpn-e2_1' 10.250.175.42:0  selectors(total,up): 3/3  rx(pkt,err): 2/0  tx(pkt,err): 56/20
+'dvpn-nsn_0' 10.250.175.18:0  selectors(total,up): 3/3  rx(pkt,err): 2157754/0  tx(pkt,err): 5035502/3
+'dvpn-nsn_1' 10.250.175.10:0  selectors(total,up): 3/3  rx(pkt,err): 51787/0  tx(pkt,err): 128641/10
+'dvpn-nsn_2' 10.250.175.14:0  selectors(total,up): 3/3  rx(pkt,err): 499109/0  tx(pkt,err): 2401459518/66
+
+o22rrlabsecgw03 (LTE_Traffic) # 

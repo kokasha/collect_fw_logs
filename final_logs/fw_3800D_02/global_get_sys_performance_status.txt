@@ -1,0 +1,57 @@
+WARNING: File System Check Recommended! Unsafe reboot may have caused inconsistency in disk drive.
+It is strongly recommended that you check file system consistency before proceeding.
+Please run 'execute disk scan 17'
+Note: The device will reboot and scan during startup. This may take up to an hour
+o22rrlabsecgw03 # 
+o22rrlabsecgw03 (global) # CPU states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU0 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU1 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU2 states: 6% user 0% system 0% nice 94% idle 0% iowait 0% irq 0% softirq
+CPU3 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU4 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU5 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU6 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU7 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU8 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU9 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU10 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU11 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU12 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU13 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU14 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU15 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU16 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU17 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU18 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU19 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU20 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU21 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU22 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU23 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU24 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU25 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU26 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU27 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU28 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU29 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU30 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU31 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU32 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU33 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU34 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU35 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU36 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU37 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU38 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+CPU39 states: 0% user 0% system 0% nice 100% idle 0% iowait 0% irq 0% softirq
+Memory: 132108832k total, 12149488k used (9.2%), 118959652k free (90.0%), 999692k freeable (0.8%)
+Average network usage: 73 / 62 kbps in 1 minute, 68 / 58 kbps in 10 minutes, 703 / 626 kbps in 30 minutes
+Average sessions: 124 sessions in 1 minute, 123 sessions in 10 minutes, 141 sessions in 30 minutes
+Average session setup rate: 0 sessions per second in last 1 minute, 0 sessions per second in last 10 minutes, 0 sessions per second in last 30 minutes
+Average NPU sessions: 10 sessions in last 1 minute, 10 sessions in last 10 minutes, 9 sessions in last 30 minutes
+Average nTurbo sessions: 0 sessions in last 1 minute, 0 sessions in last 10 minutes, 0 sessions in last 30 minutes
+Virus caught: 0 total in 1 minute
+IPS attacks blocked: 0 total in 1 minute
+Uptime: 13 days,  2 hours,  15 minutes
+
+o22rrlabsecgw03 (global) # 
